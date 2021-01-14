@@ -1,2 +1,2 @@
-# fa20
-Public course content for the Fall 2020 iteration of DS-102.
+# sp21
+Public course content for the Spring 2021 iteration of DS-102.
