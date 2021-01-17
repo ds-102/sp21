@@ -1,0 +1,24 @@
+#  This file contains the course announcements in reverse chronological order.
+# Note that only the most recent (topmost) announcement is rendered.
+
+# Example
+# - date: 1/16/2018
+#   text: |
+#     - Class begins!
+#     - Sign-up for [lab and section times](https://goo.gl/forms/zulZXeFLR1hhu1mh2).
+#     - Sign-up for [Piazza](https://piazza.com/berkeley/spring2018/data100).
+
+# - date: 01/28/2020
+#   text: |
+#     - Labs will be released Tuesday evenings and are due Thursdays at 11:59 PM
+  # - The midterm is happening remotely on Thurs March 12th at 9:30 AM
+  # - There is no lab assignment this week
+  # - HW 3 has been released and is due Thursday, March 5th before lecture (9:29 AM)
+  # - Labs happen Wednesdays and are due Thursdays at 11:59 PM
+
+# Welcome to the course! We're looking forward to spending a great semester with you!
+# - Please sign up for [Piazza](https://piazza.com/class/k5ofad3nps24c1)
+
+- date: 09/10/2020
+  text: |
+    - If you are requesting an extension for a HW or lab assignment (due DSP accommodations), please email any of the GSIs prior to the original deadline date. Please avoid emailing the professors.

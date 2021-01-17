@@ -1,0 +1,2788 @@
+<!DOCTYPE html>
+<html ⚡ lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="canonical" href="/">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
+  <title>
+    
+      Syllabus &middot; Data 102 Fall 20
+    
+  </title>
+
+  <!-- CSS -->
+  <style amp-custom>
+  
+  *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html,body{margin:0;padding:0}html{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:16px;line-height:1.5}body{color:#515151;background-color:#fff;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}a{color:#268bd2;text-decoration:none}a strong{color:inherit}a:hover,a:focus{text-decoration:underline}h1,h2,h3,h4,h5,h6{margin-bottom:.5rem;font-weight:bold;line-height:1.25;color:#313131;text-rendering:optimizeLegibility}h1{font-size:2rem}h2{margin-top:1rem;font-size:1.5rem}h3{margin-top:1.5rem;font-size:1.25rem}h4,h5,h6{margin-top:1rem;font-size:1rem}p{margin-top:0;margin-bottom:1rem}strong{color:#303030}ul,ol,dl{margin-top:0;margin-bottom:1rem}dt{font-weight:bold}dd{margin-bottom:.5rem}hr{position:relative;margin:1.5rem 0;border:0;border-top:1px solid #eee;border-bottom:1px solid #fff}abbr{font-size:85%;font-weight:bold;color:#555;text-transform:uppercase}abbr[title]{cursor:help;border-bottom:1px dotted #e5e5e5}code,pre{font-family:Menlo, Monaco, "Courier New", monospace}code{padding:.25em .5em;font-size:85%;color:#bf616a;background-color:#f9f9f9;border-radius:3px}pre{display:block;margin-top:0;margin-bottom:1rem;padding:1rem;font-size:.8rem;line-height:1.4;white-space:pre;white-space:pre-wrap;word-break:break-all;word-wrap:break-word;background-color:#f9f9f9}pre code{padding:0;font-size:100%;color:inherit;background-color:transparent}.highlight{margin-bottom:1rem;border-radius:4px}.highlight pre{margin-bottom:0}.gist .gist-file{font-family:Menlo, Monaco, "Courier New", monospace}.gist .markdown-body{padding:15px}.gist pre{padding:0;background-color:transparent}.gist .gist-file .gist-data{font-size:.8rem;line-height:1.4}.gist code{padding:0;color:inherit;background-color:transparent;border-radius:0}blockquote{padding:.5rem 1rem;margin:.8rem 0;color:#7a7a7a;border-left:.25rem solid #e5e5e5}blockquote p:last-child{margin-bottom:0}@media (min-width: 30em){blockquote{padding-right:5rem;padding-left:1.25rem}}img{display:block;max-width:100%;margin:0 0 1rem;border-radius:5px}table{margin-bottom:1rem;width:100%;border:1px solid #e5e5e5;border-collapse:collapse}td,th{padding:.25rem .5rem;border:1px solid #e5e5e5}.lead{font-size:1.25rem;font-weight:300}.message{margin-bottom:1rem;padding:1rem;color:#717171;background-color:#f9f9f9}.container{max-width:38rem;padding-left:1rem;padding-right:1rem;margin-left:auto;margin-right:auto}.masthead{padding-top:1rem;padding-bottom:1rem;margin-bottom:3rem}.masthead-title{margin-top:0;margin-bottom:0;color:#505050}.masthead-title a{color:#505050}.masthead-title small{font-size:75%;font-weight:400;color:#c0c0c0;letter-spacing:0}.page,.post{margin-bottom:4em}.page-title,.post-title,.post-title a{color:#303030}.page-title,.post-title{margin-top:0}.post-date{display:block;margin-top:-.5rem;margin-bottom:1rem;color:#9a9a9a}.related{padding-top:2rem;padding-bottom:2rem;border-top:1px solid #eee}.related-posts{padding-left:0;list-style:none}.related-posts h3{margin-top:0}.related-posts li small{font-size:75%;color:#999}.related-posts li a:hover{color:#268bd2;text-decoration:none}.related-posts li a:hover small{color:inherit}.pagination{overflow:hidden;margin-left:-1rem;margin-right:-1rem;font-family:"PT Sans", Helvetica, Arial, sans-serif;color:#ccc;text-align:center}.pagination-item{display:block;padding:1rem;border:1px solid #eee}.pagination-item:first-child{margin-bottom:-1px}a.pagination-item:hover{background-color:#f5f5f5}@media (min-width: 30em){.pagination{margin:3rem 0}.pagination-item{float:left;width:50%}.pagination-item:first-child{margin-bottom:0;border-top-left-radius:4px;border-bottom-left-radius:4px}.pagination-item:last-child{margin-left:-1px;border-top-right-radius:4px;border-bottom-right-radius:4px}}.highlight .hll{background-color:#ffc}.highlight .c{color:#999}.highlight .err{color:#a00;background-color:#faa}.highlight .k{color:#069}.highlight .o{color:#555}.highlight .cm{color:#09f;font-style:italic}.highlight .cp{color:#099}.highlight .c1{color:#999}.highlight .cs{color:#999}.highlight .gd{background-color:#fcc;border:1px solid #c00}.highlight .ge{font-style:italic}.highlight .gr{color:#f00}.highlight .gh{color:#030}.highlight .gi{background-color:#cfc;border:1px solid #0c0}.highlight .go{color:#aaa}.highlight .gp{color:#009}.highlight .gu{color:#030}.highlight .gt{color:#9c6}.highlight .kc{color:#069}.highlight .kd{color:#069}.highlight .kn{color:#069}.highlight .kp{color:#069}.highlight .kr{color:#069}.highlight .kt{color:#078}.highlight .m{color:#f60}.highlight .s{color:#d44950}.highlight .na{color:#4f9fcf}.highlight .nb{color:#366}.highlight .nc{color:#0a8}.highlight .no{color:#360}.highlight .nd{color:#99f}.highlight .ni{color:#999}.highlight .ne{color:#c00}.highlight .nf{color:#c0f}.highlight .nl{color:#99f}.highlight .nn{color:#0cf}.highlight .nt{color:#2f6f9f}.highlight .nv{color:#033}.highlight .ow{color:#000}.highlight .w{color:#bbb}.highlight .mf{color:#f60}.highlight .mh{color:#f60}.highlight .mi{color:#f60}.highlight .mo{color:#f60}.highlight .sb{color:#c30}.highlight .sc{color:#c30}.highlight .sd{color:#c30;font-style:italic}.highlight .s2{color:#c30}.highlight .se{color:#c30}.highlight .sh{color:#c30}.highlight .si{color:#a00}.highlight .sx{color:#c30}.highlight .sr{color:#3aa}.highlight .s1{color:#c30}.highlight .ss{color:#fc3}.highlight .bp{color:#366}.highlight .vc{color:#033}.highlight .vg{color:#033}.highlight .vi{color:#033}.highlight .il{color:#f60}.css .o,.css .o+.nt,.css .nt+.nt{color:#999}html{font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif}body{display:flex;flex-direction:column;height:100vh;background-color:#f6f6f6;color:#111}@media (min-width: 45rem){body{flex-direction:row;font-size:1.2rem;line-height:1.6}}ul{-webkit-padding-start:20px}.announcements-and-content{width:100%;overflow-y:scroll}.content{width:100%;max-width:700px;flex-basis:75%;margin:auto;padding:0 1.5rem}.materials{width:100%;max-width:700px;flex-basis:75%;font-size:18px;padding:0 1.5rem}.content-wide{width:100%;flex-basis:75%;margin:auto;padding:0 1.5rem}.js-hidden{display:none}.embed-wrapper{display:none}@media (min-width: 45rem){.embed-wrapper{display:block;height:0;overflow:hidden;padding-bottom:56.25%;position:relative}.embed-wrapper iframe{position:absolute;left:0;right:0;width:100%;height:100%}}.responsive-calendar-wrapper{position:relative;padding-bottom:56.25%;padding-top:30px;height:0;overflow:hidden}.responsive-calendar-wrapper iframe,.responsive-calendar-wrapper object,.responsive-calendar-wrapper embed{position:absolute;top:0;left:0;width:100%;height:100%}.staff{display:flex;flex-direction:column;align-items:center;text-align:center;flex-wrap:wrap;margin-top:1.5rem}.staff__item{flex-basis:15rem;margin-bottom:1rem}.staff__item a{font-size:18px}.staff__img{object-fit:cover;height:10rem;width:7.5rem;margin:0 auto}.section__time{margin-top:0;margin-bottom:0rem;font-size:14px}@media (min-width: 45rem){.staff{flex-direction:row}.staff__item{margin-left:1rem}}.sidebar{background-color:#325EA8;color:#fff;padding:1rem;text-align:center}.sidebar h1,.sidebar h2,.sidebar h3,.sidebar h4,.sidebar h5,.sidebar h6{color:#fff}.sidebar__title{display:none}.navigation{display:flex;flex-direction:row;justify-content:space-around;flex-wrap:wrap}.navigation__link{margin:0.2rem;color:#fff;font-weight:700}@media (min-width: 45rem){.sidebar{flex-basis:250px}.sidebar__title{display:block;margin-bottom:50px}.navigation{flex-direction:column}}.announcements{width:100%;background-color:#325EA8;color:#fff;padding:1rem}.announcement{max-width:700px;margin:auto;padding:0 1rem}.announcement__date{color:#fff}.syllabus__header{border-bottom:5px solid #325EA8}.lecture:nth-child(odd){border-top:5px solid #325EA8;background-color:#eee}.lecture__week,.lecture__date{text-align:center}.lecture__textbook{font-size:1.0rem}.lecture__assignment{font-size:1.0rem}.lecture__description{font-size:1.0rem}.lecture__resources{font-size:0.8rem}.lecture--current .lecture__num{background-color:#ffa500}.lecture__week--current{background-color:#325EA8;color:#fff}
+
+  </style>
+
+  <!-- Icons -->
+  <link rel="icon" type="image/png" href="/assets/favicon/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="/assets/favicon/favicon-16x16.png" sizes="16x16" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+  <link rel="manifest" href="/assets/favicon/manifest.json">
+  <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/assets/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">
+<!--   <link rel="apple-touch-icon" sizes="180x180" href="/fa20/assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/fa20/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/fa20/assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/fa20/assets/favicon/manifest.json">
+  <link rel="mask-icon" href="/fa20/assets/favicon/safari-pinned-tab.svg" color="#13396c"> -->
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Amp (https://www.ampproject.org/) -->
+  <!-- <script async src="https://cdn.ampproject.org/v0.js"></script> -->
+
+  <!-- Bootstrap -->
+
+</head>
+
+
+<body>
+    <aside class="sidebar">
+  <hgroup class="sidebar__title">
+    <h1>Data 102 Fall 2020</h1>
+    <p>
+        <small>Michael Jordan</small>  <br/> 
+        <small>Jacob Steinhardt</small>
+    </p>
+  </hgroup>
+
+  <nav class="navigation">
+    
+      <a class="navigation__link" href="/fa20/">Home</a>
+    
+      <a class="navigation__link" href="/fa20/syllabus">Syllabus</a>
+    
+      <a class="navigation__link" href="/fa20/grading">Grading</a>
+    
+      <a class="navigation__link" href="/fa20/resources">Resources</a>
+    
+  </nav>
+</aside>
+
+
+  <div class="announcements-and-content">
+    
+
+
+<aside class="announcements">
+  <!-- We'll only display the first announcement by default -->
+  <div class="announcement">
+    <strong class="announcement__date">Announcements — 09/10/2020</strong>
+    <ul>
+  <li>If you are requesting an extension for a HW or lab assignment (due DSP accommodations), please email any of the GSIs prior to the original deadline date. Please avoid emailing the professors.</li>
+</ul>
+
+  </div>
+
+  <!--
+  Uncomment this code to display the rest of the announcements.
+
+  
+  -->
+</aside>
+
+    
+  <main class="content-wide">
+
+
+  <h1>Syllabus</h1>
+
+  
+
+  <p>This syllabus is under development and is subject to change. Unless otherwise noted, recorded videos for discussions will be released Tuesdays and Wednesday discussion hours will be reserved for questions about the discussion material. Labs, discussions, and HW releases/deadlines will occur on the Monday, Wednesday, and Fridays following the dates below, respectively.</p>
+
+<p><strong>If you are requesting an extension for a HW or lab assignment (due to DSP accommodations), please email any of the GSIs prior to the original deadline date.</strong> Please avoid emailing the professors.</p>
+
+<script>
+  function get_buttom() {
+    return document.getElementsByClassName('show_hide_description_click')[0];
+  }
+
+  function showCurrentWeekDescription() {
+    const lectures = document.getElementsByClassName('lecture');
+
+  for (var i = 0; i < lectures.length; i++ ) {
+      let lecture = lectures[i];
+      const { lectureWeek, lectureDate } = lecture.dataset;
+      const lec_date = new Date(lectureDate + ' 23:59:59');
+
+      if (current_date <= lec_date) {
+        const descEls = document.getElementsByClassName(`description-week-${lectureWeek}`);
+        for (var j = 0; j < descEls.length; j++) {
+          descEl = descEls[j];
+          descEl.hidden = null;
+        }
+        break;
+      }
+    }
+  }
+
+  function hideAllDescription() {
+    const descEls = document.getElementsByClassName('lecture__description');
+    for (var j = 0; j < descEls.length; j++) {
+      descEl = descEls[j];
+      descEl.hidden = "true";
+    }
+    showCurrentWeekDescription();
+
+    const buttom = get_buttom();
+    buttom.text = "Show all lecture descriptions";
+    buttom.onclick=showAllDescription;
+  }
+
+  function showAllDescription() {
+    const descEls = document.getElementsByClassName('lecture__description');
+    for (var j = 0; j < descEls.length; j++) {
+      descEl = descEls[j];
+      descEl.hidden = null;
+    }
+
+    const buttom = get_buttom();
+    buttom.text = "Hide all lecture descriptions";
+    buttom.onclick=hideAllDescription;
+  }
+
+</script>
+
+<p><a class="show_hide_description_click" href="javascript:void(0)" onclick="showAllDescription();">Show all lecture descriptions</a></p>
+
+<div class="table-responsive">
+  <table class="syllabus table" id="syllabus_table">
+    <colgroup>
+      <col width="65px" />
+      <col width="78px" />
+      <col width="115px" />
+      <col width="" />
+    </colgroup>
+    <thead>
+      <tr class="syllabus__header">
+        <th> Week </th>
+        <th> Lecture </th>
+        <th> Date </th>
+        <th> Topic </th>
+        <th> Lab</th>
+        <th> Discussion</th>
+        <th> Homework </th>
+      </tr>
+    </thead>
+    <tbody>
+
+    <!--
+    The actual lecture rows. To add a lecture, edit _data/lectures.yml.
+    -->
+
+    
+
+
+
+  <!-- Use this block if starting lecture date is week begin -->
+  
+  
+  
+
+  <!-- Use this block if starting lecture data is not week begin -->
+  
+
+  <tr class="lecture" data-lecture-week="1" data-lecture-date="Tuesday 08/25/20">
+
+    <!-- Week Column  -->
+    
+      <td class="lecture__week" id="lecture-week-1" rowspan="2">
+        1
+      </td>
+    
+
+    <!-- Lecture Column -->
+    <th class="lecture__num">
+      0
+    </th>
+
+    <!-- Data Column -->
+    <td class="lecture__date">
+      Tuesday 08/25/20
+    </td>
+
+    <!-- Topic Column -->
+    <td class="lecture__info">
+      <h3>
+        (No class)
+        
+        <!--  -->
+      </h3>
+
+      <!-- the second class field for description is used to un-hidden the field -->
+      <p class="lecture__description description-week-1" hidden="true">
+          
+      </p>
+      
+      
+      <!-- 
+
+      
+
+       -->
+    </td>
+
+    <!-- Lab Column -->
+    
+      <td class="lab__info"> </td>
+    
+
+    <!-- Discussion Column -->
+    
+      <td class="disc__info"> </td>
+    
+
+    <!-- Homework Column -->
+    
+      <td class="hw__info"> </td>
+    
+
+
+
+  </tr>
+  
+
+
+  <!-- Use this block if starting lecture date is week begin -->
+  
+  
+  
+
+  <!-- Use this block if starting lecture data is not week begin -->
+  
+
+  <tr class="lecture" data-lecture-week="1" data-lecture-date="Thursday 8/27/20">
+
+    <!-- Week Column  -->
+    
+
+    <!-- Lecture Column -->
+    <th class="lecture__num">
+      1
+    </th>
+
+    <!-- Data Column -->
+    <td class="lecture__date">
+      Thursday 8/27/20
+    </td>
+
+    <!-- Topic Column -->
+    <td class="lecture__info">
+      <h3>
+        Course Overview, Making Decisions Under Uncertainty
+        
+          [<a href="assets/lectures/lecture1.pdf">slides</a>]
+        
+        <!--  -->
+      </h3>
+
+      <!-- the second class field for description is used to un-hidden the field -->
+      <p class="lecture__description description-week-1" hidden="true">
+          We provide an overview of data science and where it might head in the future. We discuss the importance of decision-making rather than simple inference. As a first step in this direction we cover the different angles through which a simple hypothesis test can be viewed.
+      </p>
+      
+      
+      <p class="lecture__resources">
+        <ul>
+  <li><a href="https://hdsr.mitpress.mit.edu/pub/wot7mkc1">Artificial Intelligence — The Revolution Hasn’t Happened Yet</a></li>
+  <li>Discussion by nine commentators <a href="https://hdsr.mitpress.mit.edu/pub/djb16hzl?readingCollection=72befc2a">1</a>, <a href="https://hdsr.mitpress.mit.edu/pub/kyzf7fjv?readingCollection=72befc2a">2</a>, <a href="https://hdsr.mitpress.mit.edu/pub/rim3pvdw?readingCollection=72befc2a">3</a>, <a href="https://hdsr.mitpress.mit.edu/pub/pqddq8u5?readingCollection=72befc2a">4</a>, <a href="https://hdsr.mitpress.mit.edu/pub/wiq01ru6?readingCollection=72befc2a">5</a>, <a href="https://hdsr.mitpress.mit.edu/pub/pjebp7io?readingCollection=72befc2a">6</a>, <a href="https://hdsr.mitpress.mit.edu/pub/plto69bh?readingCollection=72befc2a">7</a></li>
+  <li><a href="https://hdsr.mitpress.mit.edu/pub/2imtstfu?readingCollection=72befc2a">Dr. AI or: How I Learned to Stop Worrying and Love Economics</a></li>
+</ul>
+
+      </p>
+      
+      <!-- 
+
+      
+
+       -->
+    </td>
+
+    <!-- Lab Column -->
+    
+      <td class="lab__info"> </td>
+    
+
+    <!-- Discussion Column -->
+    
+      <td class="disc__info"> </td>
+    
+
+    <!-- Homework Column -->
+    
+      <td class="hw__info"> </td>
+    
+
+
+
+  </tr>
+  
+
+
+  <!-- Use this block if starting lecture date is week begin -->
+  
+  
+  
+
+  <!-- Use this block if starting lecture data is not week begin -->
+  
+
+  <tr class="lecture" data-lecture-week="2" data-lecture-date="Tuesday 9/1/20">
+
+    <!-- Week Column  -->
+    
+      <td class="lecture__week" id="lecture-week-2" rowspan="2">
+        2
+      </td>
+    
+
+    <!-- Lecture Column -->
+    <th class="lecture__num">
+      2
+    </th>
+
+    <!-- Data Column -->
+    <td class="lecture__date">
+      Tuesday 9/1/20
+    </td>
+
+    <!-- Topic Column -->
+    <td class="lecture__info">
+      <h3>
+        Multiple Hypothesis Testing
+        
+          [<a href="assets/lectures/lecture2.pdf">slides</a>]
+        
+        <!--  -->
+      </h3>
+
+      <!-- the second class field for description is used to un-hidden the field -->
+      <p class="lecture__description description-week-2" hidden="true">
+          We continue investigating the different ways of understanding error in hypothesis testing. We introduce the Neyman-Pearson principle and Neyman-Pearson Lemma for controlling error in a single test, and also introduce the challenges involved in multiple hypothesis testing.
+      </p>
+      
+      
+      <p class="lecture__resources">
+        <ul>
+  <li><a href="assets/notes/notes02.pdf">Notes</a></li>
+</ul>
+
+      </p>
+      
+      <!-- 
+
+      
+
+       -->
+    </td>
+
+    <!-- Lab Column -->
+    
+      <td class="lab__info"> </td>
+    
+
+    <!-- Discussion Column -->
+    
+      <td class="disc__info">
+          <ul>
+  <li><a href="assets/disc/disc01/disc01.pdf">Disc 1</a></li>
+  <li><a href="assets/disc/disc01/disc01_sols.pdf">Disc 1 Solutions</a></li>
+</ul>
+
+      </td>
+    
+
+    <!-- Homework Column -->
+    
+      <td class="hw__info"> </td>
+    
+
+
+
+  </tr>
+  
+
+
+  <!-- Use this block if starting lecture date is week begin -->
+  
+  
+  
+
+  <!-- Use this block if starting lecture data is not week begin -->
+  
+
+  <tr class="lecture" data-lecture-week="2" data-lecture-date="Thursday 9/3/20">
+
+    <!-- Week Column  -->
+    
+
+    <!-- Lecture Column -->
+    <th class="lecture__num">
+      3
+    </th>
+
+    <!-- Data Column -->
+    <td class="lecture__date">
+      Thursday 9/3/20
+    </td>
+
+    <!-- Topic Column -->
+    <td class="lecture__info">
+      <h3>
+        False Discovery Rate Control
+        
+          [<a href="assets/lectures/lecture3.pdf">slides</a>]
+        
+        <!--  -->
+      </h3>
+
+      <!-- the second class field for description is used to un-hidden the field -->
+      <p class="lecture__description description-week-2" hidden="true">
+          We consider the Bonferroni test, which is a naive way of controlling the family-wise error rate. We then look into Benjamini-Hochberg which is a more elaborate method that controls the false discovery rate.
+      </p>
+      
+      
+      <p class="lecture__resources">
+        <ul>
+  <li><a href="assets/notes/notes04.pdf">Notes</a></li>
+</ul>
+
+      </p>
+      
+      <!-- 
+
+      
+
+       -->
+    </td>
+
+    <!-- Lab Column -->
+    
+      <td class="lab__info"> </td>
+    
+
+    <!-- Discussion Column -->
+    
+      <td class="disc__info"> </td>
+    
+
+    <!-- Homework Column -->
+    
+      <td class="hw__info">
+          <ul>
+  <li><a href="assets/hw/hw1/hw01.zip">HW 1 released</a></li>
+</ul>
+
+      </td>
+    
+
+
+
+  </tr>
+  
+
+
+  <!-- Use this block if starting lecture date is week begin -->
+  
+  
+  
+
+  <!-- Use this block if starting lecture data is not week begin -->
+  
+
+  <tr class="lecture" data-lecture-week="3" data-lecture-date="Tuesday 9/8/20">
+
+    <!-- Week Column  -->
+    
+      <td class="lecture__week" id="lecture-week-3" rowspan="2">
+        3
+      </td>
+    
+
+    <!-- Lecture Column -->
+    <th class="lecture__num">
+      4
+    </th>
+
+    <!-- Data Column -->
+    <td class="lecture__date">
+      Tuesday 9/8/20
+    </td>
+
+    <!-- Topic Column -->
+    <td class="lecture__info">
+      <h3>
+        Online False Discovery Rate Control
+        
+          [<a href="assets/lectures/lecture4.pdf">slides</a>]
+        
+        <!--  -->
+      </h3>
+
+      <!-- the second class field for description is used to un-hidden the field -->
+      <p class="lecture__description description-week-3" hidden="true">
+          We consider how to extend FDR control to the online setting, and introduce the LORD algorithm. We also begin to review the Bayesian and frequentist approahces to decision-making.
+      </p>
+      
+      
+      <p class="lecture__resources">
+        <ul>
+  <li><a href="assets/notes/notes_online_FDR.pdf">Notes</a></li>
+</ul>
+
+      </p>
+      
+      <!-- 
+
+      
+
+       -->
+    </td>
+
+    <!-- Lab Column -->
+    
+      <td class="lab__info">
+          <ul>
+  <li><a href="http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/fa20&amp;subPath=lab/lab1/">Lab 1 released</a>: <em>Due Wednesday Sep 9th, 11:59PM on Gradescope</em></li>
+</ul>
+
+      </td>
+    
+
+    <!-- Discussion Column -->
+    
+      <td class="disc__info">
+          <ul>
+  <li><a href="assets/disc/disc02/disc02.pdf">Disc 2</a></li>
+  <li><a href="assets/disc/disc02/disc02_sol.pdf">Disc 2 Solutions</a></li>
+</ul>
+
+      </td>
+    
+
+    <!-- Homework Column -->
+    
+      <td class="hw__info"> </td>
+    
+
+
+
+  </tr>
+  
+
+
+  <!-- Use this block if starting lecture date is week begin -->
+  
+  
+  
+
+  <!-- Use this block if starting lecture data is not week begin -->
+  
+
+  <tr class="lecture" data-lecture-week="3" data-lecture-date="Thursday 9/10/20">
+
+    <!-- Week Column  -->
+    
+
+    <!-- Lecture Column -->
+    <th class="lecture__num">
+      5
+    </th>
+
+    <!-- Data Column -->
+    <td class="lecture__date">
+      Thursday 9/10/20
+    </td>
+
+    <!-- Topic Column -->
+    <td class="lecture__info">
+      <h3>
+        Frequentist and Bayesian Decision-Making, Privacy, Fairness
+        
+          [<a href="assets/lectures/lecture5.pdf">slides</a>]
+        
+        <!--  -->
+      </h3>
+
+      <!-- the second class field for description is used to un-hidden the field -->
+      <p class="lecture__description description-week-3" hidden="true">
+          
+      </p>
+      
+      
+      <p class="lecture__resources">
+        <ul>
+  <li><a href="assets/notes/notes05.pdf">Notes on Fairness in Decision-Making</a></li>
+</ul>
+
+      </p>
+      
+      <!-- 
+
+      
+
+       -->
+    </td>
+
+    <!-- Lab Column -->
+    
+      <td class="lab__info"> </td>
+    
+
+    <!-- Discussion Column -->
+    
+      <td class="disc__info"> </td>
+    
+
+    <!-- Homework Column -->
+    
+      <td class="hw__info"> </td>
+    
+
+
+
+  </tr>
+  
+
+
+  <!-- Use this block if starting lecture date is week begin -->
+  
+  
+  
+
+  <!-- Use this block if starting lecture data is not week begin -->
+  
+
+  <tr class="lecture" data-lecture-week="4" data-lecture-date="Tuesday 9/15/20">
+
+    <!-- Week Column  -->
+    
+      <td class="lecture__week" id="lecture-week-4" rowspan="2">
+        4
+      </td>
+    
+
+    <!-- Lecture Column -->
+    <th class="lecture__num">
+      6
+    </th>
+
+    <!-- Data Column -->
+    <td class="lecture__date">
+      Tuesday 9/15/20
+    </td>
+
+    <!-- Topic Column -->
+    <td class="lecture__info">
+      <h3>
+        Review of Bayesian Modeling
+        
+          [<a href="assets/lectures/lecture6.pdf">slides</a>]
+        
+        <!--  -->
+      </h3>
+
+      <!-- the second class field for description is used to un-hidden the field -->
+      <p class="lecture__description description-week-4" hidden="true">
+          
+      </p>
+      
+      
+      <p class="lecture__resources">
+        <ul>
+  <li><a href="assets/lectures/bayes_intro.ipynb">Bayes Introduction Jupyter notebook</a></li>
+  <li><a href="assets/lectures/galton.csv">galton.csv</a></li>
+</ul>
+
+      </p>
+      
+      <!-- 
+
+      
+
+       -->
+    </td>
+
+    <!-- Lab Column -->
+    
+      <td class="lab__info">
+          <ul>
+  <li><a href="http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/fa20&amp;subPath=lab/lab2/">Lab 2 released</a>: <em>Due Tuesday Sep 15th, 11:59PM on Gradescope</em></li>
+  <li><a href="http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/fa20&amp;subPath=lab/lab1/">Lab 1 solutions released</a></li>
+</ul>
+
+      </td>
+    
+
+    <!-- Discussion Column -->
+    
+      <td class="disc__info">
+          <ul>
+  <li><a href="assets/disc/disc03/disc03_nosol.pdf">Disc 3</a></li>
+  <li><a href="assets/disc/disc03/disc03.pdf">Disc 3 Solutions</a></li>
+</ul>
+
+      </td>
+    
+
+    <!-- Homework Column -->
+    
+      <td class="hw__info"> </td>
+    
+
+
+
+  </tr>
+  
+
+
+  <!-- Use this block if starting lecture date is week begin -->
+  
+  
+  
+
+  <!-- Use this block if starting lecture data is not week begin -->
+  
+
+  <tr class="lecture" data-lecture-week="4" data-lecture-date="Thursday 9/17/20">
+
+    <!-- Week Column  -->
+    
+
+    <!-- Lecture Column -->
+    <th class="lecture__num">
+      7
+    </th>
+
+    <!-- Data Column -->
+    <td class="lecture__date">
+      Thursday 9/17/20
+    </td>
+
+    <!-- Topic Column -->
+    <td class="lecture__info">
+      <h3>
+        Graphical Models
+        
+          [<a href="assets/lectures/lecture7.pdf">slides</a>]
+        
+        <!--  -->
+      </h3>
+
+      <!-- the second class field for description is used to un-hidden the field -->
+      <p class="lecture__description description-week-4" hidden="true">
+          
+      </p>
+      
+      
+      <p class="lecture__resources">
+        <ul>
+  <li><a href="assets/notes/notes09.pdf">Notes (Sections 9.1-9.3)</a></li>
+</ul>
+
+      </p>
+      
+      <!-- 
+
+      
+
+       -->
+    </td>
+
+    <!-- Lab Column -->
+    
+      <td class="lab__info"> </td>
+    
+
+    <!-- Discussion Column -->
+    
+      <td class="disc__info"> </td>
+    
+
+    <!-- Homework Column -->
+    
+      <td class="hw__info"> </td>
+    
+
+
+
+  </tr>
+  
+
+
+  <!-- Use this block if starting lecture date is week begin -->
+  
+  
+  
+
+  <!-- Use this block if starting lecture data is not week begin -->
+  
+
+  <tr class="lecture" data-lecture-week="5" data-lecture-date="Tuesday 9/22/20">
+
+    <!-- Week Column  -->
+    
+      <td class="lecture__week" id="lecture-week-5" rowspan="2">
+        5
+      </td>
+    
+
+    <!-- Lecture Column -->
+    <th class="lecture__num">
+      8
+    </th>
+
+    <!-- Data Column -->
+    <td class="lecture__date">
+      Tuesday 9/22/20
+    </td>
+
+    <!-- Topic Column -->
+    <td class="lecture__info">
+      <h3>
+        Rejection Sampling and Markov Chains
+        
+          [<a href="assets/lectures/lecture8.pdf">slides</a>]
+        
+        <!--  -->
+      </h3>
+
+      <!-- the second class field for description is used to un-hidden the field -->
+      <p class="lecture__description description-week-5" hidden="true">
+          
+      </p>
+      
+      
+      <p class="lecture__resources">
+        <ul>
+  <li><a href="assets/lectures/rejection_sampling.ipynb">Rejection Sampling Jupyter notebook</a></li>
+  <li><a href="https://data102.org/sp20/assets/notes/notes10.pdf">Notes on Rejection Sampling (Sections 10.1-10.2)</a></li>
+</ul>
+
+      </p>
+      
+      <!-- 
+
+      
+
+       -->
+    </td>
+
+    <!-- Lab Column -->
+    
+      <td class="lab__info">
+          <ul>
+  <li><a href="http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/fa20&amp;subPath=lab/lab3/">Lab 3 released</a>: <em>Due Tuesday Sep 22nd, 11:59PM on Gradescope</em></li>
+  <li><a href="http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/fa20&amp;subPath=lab/lab2/">Lab 2 solutions released</a></li>
+</ul>
+
+      </td>
+    
+
+    <!-- Discussion Column -->
+    
+      <td class="disc__info">
+          <ul>
+  <li><a href="assets/disc/disc04/DIS4.pdf">Disc 4</a></li>
+  <li><a href="assets/disc/disc04/DIS4_SOL.pdf">Disc 4 Solutions</a></li>
+</ul>
+
+      </td>
+    
+
+    <!-- Homework Column -->
+    
+      <td class="hw__info"> </td>
+    
+
+
+
+  </tr>
+  
+
+
+  <!-- Use this block if starting lecture date is week begin -->
+  
+  
+  
+
+  <!-- Use this block if starting lecture data is not week begin -->
+  
+
+  <tr class="lecture" data-lecture-week="5" data-lecture-date="Thursday 9/24/20">
+
+    <!-- Week Column  -->
+    
+
+    <!-- Lecture Column -->
+    <th class="lecture__num">
+      9
+    </th>
+
+    <!-- Data Column -->
+    <td class="lecture__date">
+      Thursday 9/24/20
+    </td>
+
+    <!-- Topic Column -->
+    <td class="lecture__info">
+      <h3>
+        MCMC and Gibbs Sampling
+        
+          [<a href="assets/lectures/lecture9.pdf">slides</a>]
+        
+        <!--  -->
+      </h3>
+
+      <!-- the second class field for description is used to un-hidden the field -->
+      <p class="lecture__description description-week-5" hidden="true">
+          
+      </p>
+      
+      
+      <p class="lecture__resources">
+        <ul>
+  <li><a href="assets/lectures/gibbs_sampling.ipynb">Gibbs Sampling Jupyter notebook</a></li>
+  <li><a href="https://data102.org/sp20/assets/notes/notes11.pdf">Notes</a></li>
+</ul>
+
+      </p>
+      
+      <!-- 
+
+      
+
+       -->
+    </td>
+
+    <!-- Lab Column -->
+    
+      <td class="lab__info"> </td>
+    
+
+    <!-- Discussion Column -->
+    
+      <td class="disc__info"> </td>
+    
+
+    <!-- Homework Column -->
+    
+      <td class="hw__info">
+          <ul>
+  <li><a href="assets/hw/hw2/hw02.zip">HW 2 released</a></li>
+</ul>
+
+      </td>
+    
+
+
+
+  </tr>
+  
+
+
+  <!-- Use this block if starting lecture date is week begin -->
+  
+  
+  
+
+  <!-- Use this block if starting lecture data is not week begin -->
+  
+
+  <tr class="lecture" data-lecture-week="6" data-lecture-date="Tuesday 9/29/20">
+
+    <!-- Week Column  -->
+    
+      <td class="lecture__week" id="lecture-week-6" rowspan="2">
+        6
+      </td>
+    
+
+    <!-- Lecture Column -->
+    <th class="lecture__num">
+      10
+    </th>
+
+    <!-- Data Column -->
+    <td class="lecture__date">
+      Tuesday 9/29/20
+    </td>
+
+    <!-- Topic Column -->
+    <td class="lecture__info">
+      <h3>
+        Regression (Bayesian)
+        
+          [<a href="assets/lectures/lecture10.pdf">slides</a>]
+        
+        <!--  -->
+      </h3>
+
+      <!-- the second class field for description is used to un-hidden the field -->
+      <p class="lecture__description description-week-6" hidden="true">
+          
+      </p>
+      
+      
+      <p class="lecture__resources">
+        <ul>
+  <li><a href="assets/lectures/lecture10.ipynb">Bayesian Regression Jupyter notebook</a></li>
+</ul>
+
+      </p>
+      
+      <!-- 
+
+      
+
+       -->
+    </td>
+
+    <!-- Lab Column -->
+    
+      <td class="lab__info">
+          <ul>
+  <li><a href="http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/fa20&amp;subPath=lab/lab4/">Lab 4 released</a>: <em>Due Wednesday Sep 30th, 11:59PM on Gradescope</em></li>
+  <li><a href="http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/fa20&amp;subPath=lab/lab3/">Lab 3 solutions released</a></li>
+</ul>
+
+      </td>
+    
+
+    <!-- Discussion Column -->
+    
+      <td class="disc__info">
+          <ul>
+  <li><a href="assets/disc/disc05/DIS5.pdf">Disc 5</a></li>
+  <li><a href="assets/disc/disc05/DIS5_SOL.pdf">Disc 5 Solutions</a></li>
+</ul>
+
+      </td>
+    
+
+    <!-- Homework Column -->
+    
+      <td class="hw__info"> </td>
+    
+
+
+
+  </tr>
+  
+
+
+  <!-- Use this block if starting lecture date is week begin -->
+  
+  
+  
+
+  <!-- Use this block if starting lecture data is not week begin -->
+  
+
+  <tr class="lecture" data-lecture-week="6" data-lecture-date="Thursday 10/1/20">
+
+    <!-- Week Column  -->
+    
+
+    <!-- Lecture Column -->
+    <th class="lecture__num">
+      11
+    </th>
+
+    <!-- Data Column -->
+    <td class="lecture__date">
+      Thursday 10/1/20
+    </td>
+
+    <!-- Topic Column -->
+    <td class="lecture__info">
+      <h3>
+        Regression (Frequentist)
+        
+          [<a href="assets/lectures/lecture11.pdf">slides</a>]
+        
+        <!--  -->
+      </h3>
+
+      <!-- the second class field for description is used to un-hidden the field -->
+      <p class="lecture__description description-week-6" hidden="true">
+          
+      </p>
+      
+      
+      <p class="lecture__resources">
+        <ul>
+  <li><a href="assets/lectures/lecture11.ipynb">Frequentist Regression and Bootstrap Example Jupyter notebook</a></li>
+</ul>
+
+      </p>
+      
+      <!-- 
+
+      
+
+       -->
+    </td>
+
+    <!-- Lab Column -->
+    
+      <td class="lab__info"> </td>
+    
+
+    <!-- Discussion Column -->
+    
+      <td class="disc__info"> </td>
+    
+
+    <!-- Homework Column -->
+    
+      <td class="hw__info"> </td>
+    
+
+
+
+  </tr>
+  
+
+
+  <!-- Use this block if starting lecture date is week begin -->
+  
+  
+  
+
+  <!-- Use this block if starting lecture data is not week begin -->
+  
+
+  <tr class="lecture" data-lecture-week="7" data-lecture-date="Tuesday 10/6/20">
+
+    <!-- Week Column  -->
+    
+      <td class="lecture__week" id="lecture-week-7" rowspan="2">
+        7
+      </td>
+    
+
+    <!-- Lecture Column -->
+    <th class="lecture__num">
+      12
+    </th>
+
+    <!-- Data Column -->
+    <td class="lecture__date">
+      Tuesday 10/6/20
+    </td>
+
+    <!-- Topic Column -->
+    <td class="lecture__info">
+      <h3>
+        Bootstrap
+        
+          [<a href="assets/lectures/lecture12_note.pdf">slides</a>]
+        
+        <!--  -->
+      </h3>
+
+      <!-- the second class field for description is used to un-hidden the field -->
+      <p class="lecture__description description-week-7" hidden="true">
+          
+      </p>
+      
+      
+      <p class="lecture__resources">
+        <ul>
+  <li><a href="https://data102.org/sp20/assets/notes/notes26.pdf">Notes</a></li>
+</ul>
+
+      </p>
+      
+      <!-- 
+
+      
+
+       -->
+    </td>
+
+    <!-- Lab Column -->
+    
+      <td class="lab__info">
+          <ul>
+  <li><a href="http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/fa20&amp;subPath=lab/lab5/">Lab 5 released</a>: <em>Due Thursday Oct 8th, 11:59PM on Gradescope</em></li>
+  <li><a href="http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/fa20&amp;subPath=lab/lab4/">Lab 4 solutions released</a></li>
+</ul>
+
+      </td>
+    
+
+    <!-- Discussion Column -->
+    
+      <td class="disc__info">
+          <ul>
+  <li><a href="assets/disc/disc06/disc06.pdf">Disc 6</a></li>
+  <li><a href="assets/disc/disc06/disc06_sol.pdf">Disc 6 Solutions</a></li>
+</ul>
+
+      </td>
+    
+
+    <!-- Homework Column -->
+    
+      <td class="hw__info">
+          <ul>
+  <li><a href="assets/hw/hw3/hw03.zip">HW 3 released</a></li>
+</ul>
+
+      </td>
+    
+
+
+
+  </tr>
+  
+
+
+  <!-- Use this block if starting lecture date is week begin -->
+  
+  
+  
+
+  <!-- Use this block if starting lecture data is not week begin -->
+  
+
+  <tr class="lecture" data-lecture-week="7" data-lecture-date="Thursday 10/8/20">
+
+    <!-- Week Column  -->
+    
+
+    <!-- Lecture Column -->
+    <th class="lecture__num">
+      13
+    </th>
+
+    <!-- Data Column -->
+    <td class="lecture__date">
+      Thursday 10/8/20
+    </td>
+
+    <!-- Topic Column -->
+    <td class="lecture__info">
+      <h3>
+        Causal Inference I
+        
+          [<a href="assets/lectures/lecture13.pdf">slides</a>]
+        
+        <!--  -->
+      </h3>
+
+      <!-- the second class field for description is used to un-hidden the field -->
+      <p class="lecture__description description-week-7" hidden="true">
+          
+      </p>
+      
+      
+      <p class="lecture__resources">
+        <ul>
+  <li><a href="https://data102.org/sp20/assets/notes/notes13.pdf">Notes</a></li>
+</ul>
+
+      </p>
+      
+      <!-- 
+
+      
+
+       -->
+    </td>
+
+    <!-- Lab Column -->
+    
+      <td class="lab__info"> </td>
+    
+
+    <!-- Discussion Column -->
+    
+      <td class="disc__info"> </td>
+    
+
+    <!-- Homework Column -->
+    
+      <td class="hw__info"> </td>
+    
+
+
+
+  </tr>
+  
+
+
+  <!-- Use this block if starting lecture date is week begin -->
+  
+  
+  
+
+  <!-- Use this block if starting lecture data is not week begin -->
+  
+
+  <tr class="lecture" data-lecture-week="8" data-lecture-date="Tuesday 10/13/20">
+
+    <!-- Week Column  -->
+    
+      <td class="lecture__week" id="lecture-week-8" rowspan="2">
+        8
+      </td>
+    
+
+    <!-- Lecture Column -->
+    <th class="lecture__num">
+      14
+    </th>
+
+    <!-- Data Column -->
+    <td class="lecture__date">
+      Tuesday 10/13/20
+    </td>
+
+    <!-- Topic Column -->
+    <td class="lecture__info">
+      <h3>
+        Causal Inference II
+        
+          [<a href="assets/lectures/lecture14.pptx">slides</a>]
+        
+        <!--  -->
+      </h3>
+
+      <!-- the second class field for description is used to un-hidden the field -->
+      <p class="lecture__description description-week-8" hidden="true">
+          
+      </p>
+      
+      
+      <p class="lecture__resources">
+        <ul>
+  <li><a href="https://data102.org/sp20/assets/notes/notes14.pdf">Notes on Propensity Scores (Section 14.3)</a></li>
+  <li><a href="assets/lectures/lecture14_notes.pdf">Whiteboard Notes on Propensity Scores</a></li>
+</ul>
+
+      </p>
+      
+      <!-- 
+
+      
+
+       -->
+    </td>
+
+    <!-- Lab Column -->
+    
+      <td class="lab__info">
+          <ul>
+  <li><a href="http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/fa20&amp;subPath=lab/lab6/">Lab 6 released</a>: <em>Due Thursday Oct 15th, 11:59PM on Gradescope</em></li>
+  <li><a href="http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/fa20&amp;subPath=lab/lab5/">Lab 5 solutions released</a></li>
+</ul>
+
+      </td>
+    
+
+    <!-- Discussion Column -->
+    
+      <td class="disc__info">
+          <ul>
+  <li><a href="assets/disc/disc07/DIS7.pdf">Disc 7</a></li>
+  <li><a href="assets/disc/disc07/DIS7_SOL.pdf">Disc 7 Solutions</a></li>
+</ul>
+
+      </td>
+    
+
+    <!-- Homework Column -->
+    
+      <td class="hw__info"> </td>
+    
+
+
+
+  </tr>
+  
+
+
+  <!-- Use this block if starting lecture date is week begin -->
+  
+  
+  
+
+  <!-- Use this block if starting lecture data is not week begin -->
+  
+
+  <tr class="lecture" data-lecture-week="8" data-lecture-date="Thursday 10/15/20">
+
+    <!-- Week Column  -->
+    
+
+    <!-- Lecture Column -->
+    <th class="lecture__num">
+      15
+    </th>
+
+    <!-- Data Column -->
+    <td class="lecture__date">
+      Thursday 10/15/20
+    </td>
+
+    <!-- Topic Column -->
+    <td class="lecture__info">
+      <h3>
+        Causal Inference II (continued)
+        
+        <!--  -->
+      </h3>
+
+      <!-- the second class field for description is used to un-hidden the field -->
+      <p class="lecture__description description-week-8" hidden="true">
+          
+      </p>
+      
+      
+      <!-- 
+
+      
+
+       -->
+    </td>
+
+    <!-- Lab Column -->
+    
+      <td class="lab__info"> </td>
+    
+
+    <!-- Discussion Column -->
+    
+      <td class="disc__info"> </td>
+    
+
+    <!-- Homework Column -->
+    
+      <td class="hw__info"> </td>
+    
+
+
+
+  </tr>
+  
+
+
+  <!-- Use this block if starting lecture date is week begin -->
+  
+  
+  
+
+  <!-- Use this block if starting lecture data is not week begin -->
+  
+
+  <tr class="lecture" data-lecture-week="9" data-lecture-date="Tuesday 10/20/20">
+
+    <!-- Week Column  -->
+    
+      <td class="lecture__week" id="lecture-week-9" rowspan="2">
+        9
+      </td>
+    
+
+    <!-- Lecture Column -->
+    <th class="lecture__num">
+      16
+    </th>
+
+    <!-- Data Column -->
+    <td class="lecture__date">
+      Tuesday 10/20/20
+    </td>
+
+    <!-- Topic Column -->
+    <td class="lecture__info">
+      <h3>
+        Midterm
+        
+        <!--  -->
+      </h3>
+
+      <!-- the second class field for description is used to un-hidden the field -->
+      <p class="lecture__description description-week-9" hidden="true">
+          
+      </p>
+      
+      
+      <!-- 
+
+      
+
+       -->
+    </td>
+
+    <!-- Lab Column -->
+    
+      <td class="lab__info"> </td>
+    
+
+    <!-- Discussion Column -->
+    
+      <td class="disc__info"> </td>
+    
+
+    <!-- Homework Column -->
+    
+      <td class="hw__info"> </td>
+    
+
+
+
+  </tr>
+  
+
+
+  <!-- Use this block if starting lecture date is week begin -->
+  
+  
+  
+
+  <!-- Use this block if starting lecture data is not week begin -->
+  
+
+  <tr class="lecture" data-lecture-week="9" data-lecture-date="Thursday 10/22/20">
+
+    <!-- Week Column  -->
+    
+
+    <!-- Lecture Column -->
+    <th class="lecture__num">
+      17
+    </th>
+
+    <!-- Data Column -->
+    <td class="lecture__date">
+      Thursday 10/22/20
+    </td>
+
+    <!-- Topic Column -->
+    <td class="lecture__info">
+      <h3>
+        Concentration Inequalities
+        
+        <!--  -->
+      </h3>
+
+      <!-- the second class field for description is used to un-hidden the field -->
+      <p class="lecture__description description-week-9" hidden="true">
+          
+      </p>
+      
+      
+      <p class="lecture__resources">
+        <ul>
+  <li><a href="assets/lectures/lecture17.ipynb">Concentration Inequalities Notebook</a></li>
+  <li><a href="assets/lectures/lecture17.pdf">Whiteboard Notes</a></li>
+</ul>
+
+      </p>
+      
+      <!-- 
+
+      
+
+       -->
+    </td>
+
+    <!-- Lab Column -->
+    
+      <td class="lab__info">
+          <ul>
+  <li><a href="http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/fa20&amp;subPath=lab/lab7/">Lab 7 released</a>: <em>Due Wednesday Oct 28th, 11:59PM on Gradescope</em></li>
+  <li><a href="http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/fa20&amp;subPath=lab/lab6/">Lab 6 solutions released</a></li>
+</ul>
+
+      </td>
+    
+
+    <!-- Discussion Column -->
+    
+      <td class="disc__info"> </td>
+    
+
+    <!-- Homework Column -->
+    
+      <td class="hw__info">
+          <ul>
+  <li><a href="assets/hw/hw4/hw04.zip">HW 4 released</a></li>
+</ul>
+
+      </td>
+    
+
+
+
+  </tr>
+  
+
+
+  <!-- Use this block if starting lecture date is week begin -->
+  
+  
+  
+
+  <!-- Use this block if starting lecture data is not week begin -->
+  
+
+  <tr class="lecture" data-lecture-week="10" data-lecture-date="Tuesday 10/27/20">
+
+    <!-- Week Column  -->
+    
+      <td class="lecture__week" id="lecture-week-10" rowspan="2">
+        10
+      </td>
+    
+
+    <!-- Lecture Column -->
+    <th class="lecture__num">
+      18
+    </th>
+
+    <!-- Data Column -->
+    <td class="lecture__date">
+      Tuesday 10/27/20
+    </td>
+
+    <!-- Topic Column -->
+    <td class="lecture__info">
+      <h3>
+        Bandits I
+        
+          [<a href="assets/lectures/lecture18.pptx">slides</a>]
+        
+        <!--  -->
+      </h3>
+
+      <!-- the second class field for description is used to un-hidden the field -->
+      <p class="lecture__description description-week-10" hidden="true">
+          
+      </p>
+      
+      
+      <p class="lecture__resources">
+        <ul>
+  <li><a href="assets/lectures/UCB_interactive.py">Interactive UCB Code</a></li>
+  <li><a href="assets/lectures/UCB_demo.ipynb">UCB Demo Notebook</a></li>
+  <li><a href="https://data102.org/sp20/assets/notes/notes17.pdf">Notes</a></li>
+</ul>
+
+      </p>
+      
+      <!-- 
+
+      
+
+       -->
+    </td>
+
+    <!-- Lab Column -->
+    
+      <td class="lab__info"> </td>
+    
+
+    <!-- Discussion Column -->
+    
+      <td class="disc__info">
+          <ul>
+  <li><a href="assets/disc/disc08/DIS8.pdf">Disc 8</a></li>
+  <li><a href="assets/disc/disc08/DIS8_SOL.pdf">Disc 8 Solutions</a></li>
+</ul>
+
+      </td>
+    
+
+    <!-- Homework Column -->
+    
+      <td class="hw__info"> </td>
+    
+
+
+
+  </tr>
+  
+
+
+  <!-- Use this block if starting lecture date is week begin -->
+  
+  
+  
+
+  <!-- Use this block if starting lecture data is not week begin -->
+  
+
+  <tr class="lecture" data-lecture-week="10" data-lecture-date="Thursday 10/29/20">
+
+    <!-- Week Column  -->
+    
+
+    <!-- Lecture Column -->
+    <th class="lecture__num">
+      19
+    </th>
+
+    <!-- Data Column -->
+    <td class="lecture__date">
+      Thursday 10/29/20
+    </td>
+
+    <!-- Topic Column -->
+    <td class="lecture__info">
+      <h3>
+        Bandits II
+        
+        <!--  -->
+      </h3>
+
+      <!-- the second class field for description is used to un-hidden the field -->
+      <p class="lecture__description description-week-10" hidden="true">
+          
+      </p>
+      
+      
+      <!-- 
+
+      
+
+       -->
+    </td>
+
+    <!-- Lab Column -->
+    
+      <td class="lab__info"> </td>
+    
+
+    <!-- Discussion Column -->
+    
+      <td class="disc__info"> </td>
+    
+
+    <!-- Homework Column -->
+    
+      <td class="hw__info"> </td>
+    
+
+
+
+  </tr>
+  
+
+
+  <!-- Use this block if starting lecture date is week begin -->
+  
+  
+  
+
+  <!-- Use this block if starting lecture data is not week begin -->
+  
+
+  <tr class="lecture" data-lecture-week="11" data-lecture-date="Tuesday 11/3/20">
+
+    <!-- Week Column  -->
+    
+      <td class="lecture__week" id="lecture-week-11" rowspan="2">
+        11
+      </td>
+    
+
+    <!-- Lecture Column -->
+    <th class="lecture__num">
+      20
+    </th>
+
+    <!-- Data Column -->
+    <td class="lecture__date">
+      Tuesday 11/3/20
+    </td>
+
+    <!-- Topic Column -->
+    <td class="lecture__info">
+      <h3>
+        Matching Markets
+        
+          [<a href="assets/lectures/lecture20.pptx">slides</a>]
+        
+        <!--  -->
+      </h3>
+
+      <!-- the second class field for description is used to un-hidden the field -->
+      <p class="lecture__description description-week-11" hidden="true">
+          
+      </p>
+      
+      
+      <p class="lecture__resources">
+        <ul>
+  <li><a href="assets/lectures/lecture20_notes.pdf">Notes</a></li>
+</ul>
+
+      </p>
+      
+      <!-- 
+
+      
+
+       -->
+    </td>
+
+    <!-- Lab Column -->
+    
+      <td class="lab__info">
+          <ul>
+  <li><a href="http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/fa20&amp;subPath=lab/lab8/">Lab 8 released</a>: <em>Due Thursday Nov 5th, 11:59PM on Gradescope</em></li>
+  <li><a href="http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/fa20&amp;subPath=lab/lab7/">Lab 7 solutions released</a></li>
+</ul>
+
+      </td>
+    
+
+    <!-- Discussion Column -->
+    
+      <td class="disc__info">
+          <ul>
+  <li><a href="assets/disc/disc09/DIS9.pdf">Disc 9</a></li>
+  <li><a href="assets/disc/disc09/DIS9_SOL.pdf">Disc 9 Solutions</a></li>
+</ul>
+
+      </td>
+    
+
+    <!-- Homework Column -->
+    
+      <td class="hw__info"> </td>
+    
+
+
+
+  </tr>
+  
+
+
+  <!-- Use this block if starting lecture date is week begin -->
+  
+  
+  
+
+  <!-- Use this block if starting lecture data is not week begin -->
+  
+
+  <tr class="lecture" data-lecture-week="11" data-lecture-date="Thursday 11/5/20">
+
+    <!-- Week Column  -->
+    
+
+    <!-- Lecture Column -->
+    <th class="lecture__num">
+      21
+    </th>
+
+    <!-- Data Column -->
+    <td class="lecture__date">
+      Thursday 11/5/20
+    </td>
+
+    <!-- Topic Column -->
+    <td class="lecture__info">
+      <h3>
+        Game Theory
+        
+          [<a href="assets/lectures/lecture21.pptx">slides</a>]
+        
+        <!--  -->
+      </h3>
+
+      <!-- the second class field for description is used to un-hidden the field -->
+      <p class="lecture__description description-week-11" hidden="true">
+          
+      </p>
+      
+      
+      <!-- 
+
+      
+
+       -->
+    </td>
+
+    <!-- Lab Column -->
+    
+      <td class="lab__info"> </td>
+    
+
+    <!-- Discussion Column -->
+    
+      <td class="disc__info"> </td>
+    
+
+    <!-- Homework Column -->
+    
+      <td class="hw__info"> </td>
+    
+
+
+
+  </tr>
+  
+
+
+  <!-- Use this block if starting lecture date is week begin -->
+  
+  
+  
+
+  <!-- Use this block if starting lecture data is not week begin -->
+  
+
+  <tr class="lecture" data-lecture-week="12" data-lecture-date="Tuesday 11/10/20">
+
+    <!-- Week Column  -->
+    
+      <td class="lecture__week" id="lecture-week-12" rowspan="2">
+        12
+      </td>
+    
+
+    <!-- Lecture Column -->
+    <th class="lecture__num">
+      22
+    </th>
+
+    <!-- Data Column -->
+    <td class="lecture__date">
+      Tuesday 11/10/20
+    </td>
+
+    <!-- Topic Column -->
+    <td class="lecture__info">
+      <h3>
+        Reinforcement Learning I
+        
+          [<a href="assets/lectures/lecture22.pdf">slides</a>]
+        
+        <!--  -->
+      </h3>
+
+      <!-- the second class field for description is used to un-hidden the field -->
+      <p class="lecture__description description-week-12" hidden="true">
+          
+      </p>
+      
+      
+      <p class="lecture__resources">
+        <ul>
+  <li><a href="assets/lectures/lecture22_notes.pdf">Whiteboard Notes</a></li>
+  <li><a href="assets/lectures/notes22.pdf">Notes</a></li>
+</ul>
+
+      </p>
+      
+      <!-- 
+
+      
+
+       -->
+    </td>
+
+    <!-- Lab Column -->
+    
+      <td class="lab__info">
+          <ul>
+  <li><a href="http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/fa20&amp;subPath=lab/lab9/">Lab 9 released</a><em>Due Thursday Nov 12th, 11:59PM on Gradescope</em></li>
+  <li><a href="http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/fa20&amp;subPath=lab/lab8/">Lab 8 solutions released</a></li>
+</ul>
+
+      </td>
+    
+
+    <!-- Discussion Column -->
+    
+      <td class="disc__info">
+          <ul>
+  <li><a href="assets/disc/disc10/DIS10.pdf">Disc 10</a></li>
+  <li><a href="assets/disc/disc10/DIS10_SOL.pdf">Disc 10 Solutions</a></li>
+</ul>
+
+      </td>
+    
+
+    <!-- Homework Column -->
+    
+      <td class="hw__info">
+          <ul>
+  <li><a href="assets/hw/hw5/hw05.zip">HW 5 released</a></li>
+</ul>
+
+      </td>
+    
+
+
+
+  </tr>
+  
+
+
+  <!-- Use this block if starting lecture date is week begin -->
+  
+  
+  
+
+  <!-- Use this block if starting lecture data is not week begin -->
+  
+
+  <tr class="lecture" data-lecture-week="12" data-lecture-date="Thursday 11/12/20">
+
+    <!-- Week Column  -->
+    
+
+    <!-- Lecture Column -->
+    <th class="lecture__num">
+      23
+    </th>
+
+    <!-- Data Column -->
+    <td class="lecture__date">
+      Thursday 11/12/20
+    </td>
+
+    <!-- Topic Column -->
+    <td class="lecture__info">
+      <h3>
+        Reinforcement Learning II
+        
+        <!--  -->
+      </h3>
+
+      <!-- the second class field for description is used to un-hidden the field -->
+      <p class="lecture__description description-week-12" hidden="true">
+          
+      </p>
+      
+      
+      <p class="lecture__resources">
+        <ul>
+  <li><a href="assets/lectures/notes23.pdf">Notes</a></li>
+</ul>
+
+      </p>
+      
+      <!-- 
+
+      
+
+       -->
+    </td>
+
+    <!-- Lab Column -->
+    
+      <td class="lab__info"> </td>
+    
+
+    <!-- Discussion Column -->
+    
+      <td class="disc__info"> </td>
+    
+
+    <!-- Homework Column -->
+    
+      <td class="hw__info"> </td>
+    
+
+
+
+  </tr>
+  
+
+
+  <!-- Use this block if starting lecture date is week begin -->
+  
+  
+  
+
+  <!-- Use this block if starting lecture data is not week begin -->
+  
+
+  <tr class="lecture" data-lecture-week="13" data-lecture-date="Tuesday 11/17/20">
+
+    <!-- Week Column  -->
+    
+      <td class="lecture__week" id="lecture-week-13" rowspan="2">
+        13
+      </td>
+    
+
+    <!-- Lecture Column -->
+    <th class="lecture__num">
+      24
+    </th>
+
+    <!-- Data Column -->
+    <td class="lecture__date">
+      Tuesday 11/17/20
+    </td>
+
+    <!-- Topic Column -->
+    <td class="lecture__info">
+      <h3>
+        Nonparametric Methods
+        
+          [<a href="assets/lectures/lecture24.pdf">slides</a>]
+        
+        <!--  -->
+      </h3>
+
+      <!-- the second class field for description is used to un-hidden the field -->
+      <p class="lecture__description description-week-13" hidden="true">
+          
+      </p>
+      
+      
+      <p class="lecture__resources">
+        <ul>
+  <li><a href="assets/lectures/lecture24.ipynb">Notebook on Non-parametric Modeling &amp; PyTorch Examples</a></li>
+</ul>
+
+      </p>
+      
+      <!-- 
+
+      
+
+       -->
+    </td>
+
+    <!-- Lab Column -->
+    
+      <td class="lab__info">
+          <ul>
+  <li><a href="http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/fa20&amp;subPath=lab/lab10/">Lab 10 released</a><em>Due Wednesday Nov 18th, 11:59PM on Gradescope</em></li>
+</ul>
+
+      </td>
+    
+
+    <!-- Discussion Column -->
+    
+      <td class="disc__info">
+          <ul>
+  <li><a href="assets/disc/disc11/DIS11.pdf">Disc 11</a></li>
+  <li><a href="assets/disc/disc11/DIS11_SOL.pdf">Disc 11 Solutions</a></li>
+</ul>
+
+      </td>
+    
+
+    <!-- Homework Column -->
+    
+      <td class="hw__info"> </td>
+    
+
+
+
+  </tr>
+  
+
+
+  <!-- Use this block if starting lecture date is week begin -->
+  
+  
+  
+
+  <!-- Use this block if starting lecture data is not week begin -->
+  
+
+  <tr class="lecture" data-lecture-week="13" data-lecture-date="Thursday 11/19/20">
+
+    <!-- Week Column  -->
+    
+
+    <!-- Lecture Column -->
+    <th class="lecture__num">
+      25
+    </th>
+
+    <!-- Data Column -->
+    <td class="lecture__date">
+      Thursday 11/19/20
+    </td>
+
+    <!-- Topic Column -->
+    <td class="lecture__info">
+      <h3>
+        Generalization, Robustness, Distribution Shift I
+        
+          [<a href="https://docs.google.com/presentation/d/1F_SdbM6NHBzdj-TVb3DNVPYpnsFkQ4vsNVb6omUk7ZA/edit#slide=id.p">slides</a>]
+        
+        <!--  -->
+      </h3>
+
+      <!-- the second class field for description is used to un-hidden the field -->
+      <p class="lecture__description description-week-13" hidden="true">
+          
+      </p>
+      
+      
+      <!-- 
+
+      
+
+       -->
+    </td>
+
+    <!-- Lab Column -->
+    
+      <td class="lab__info"> </td>
+    
+
+    <!-- Discussion Column -->
+    
+      <td class="disc__info"> </td>
+    
+
+    <!-- Homework Column -->
+    
+      <td class="hw__info"> </td>
+    
+
+
+
+  </tr>
+  
+
+
+  <!-- Use this block if starting lecture date is week begin -->
+  
+  
+  
+
+  <!-- Use this block if starting lecture data is not week begin -->
+  
+
+  <tr class="lecture" data-lecture-week="14" data-lecture-date="Tuesday 11/24/20">
+
+    <!-- Week Column  -->
+    
+      <td class="lecture__week" id="lecture-week-14" rowspan="2">
+        14
+      </td>
+    
+
+    <!-- Lecture Column -->
+    <th class="lecture__num">
+      26
+    </th>
+
+    <!-- Data Column -->
+    <td class="lecture__date">
+      Tuesday 11/24/20
+    </td>
+
+    <!-- Topic Column -->
+    <td class="lecture__info">
+      <h3>
+        Generalization, Robustness, Distribution Shift II
+        
+        <!--  -->
+      </h3>
+
+      <!-- the second class field for description is used to un-hidden the field -->
+      <p class="lecture__description description-week-14" hidden="true">
+          
+      </p>
+      
+      
+      <!-- 
+
+      
+
+       -->
+    </td>
+
+    <!-- Lab Column -->
+    
+      <td class="lab__info"> </td>
+    
+
+    <!-- Discussion Column -->
+    
+      <td class="disc__info"> </td>
+    
+
+    <!-- Homework Column -->
+    
+      <td class="hw__info"> </td>
+    
+
+
+
+  </tr>
+  
+
+
+  <!-- Use this block if starting lecture date is week begin -->
+  
+  
+  
+
+  <!-- Use this block if starting lecture data is not week begin -->
+  
+
+  <tr class="lecture" data-lecture-week="14" data-lecture-date="Thursday 11/26/20">
+
+    <!-- Week Column  -->
+    
+
+    <!-- Lecture Column -->
+    <th class="lecture__num">
+      27
+    </th>
+
+    <!-- Data Column -->
+    <td class="lecture__date">
+      Thursday 11/26/20
+    </td>
+
+    <!-- Topic Column -->
+    <td class="lecture__info">
+      <h3>
+        Thanksgiving Break
+        
+        <!--  -->
+      </h3>
+
+      <!-- the second class field for description is used to un-hidden the field -->
+      <p class="lecture__description description-week-14" hidden="true">
+          
+      </p>
+      
+      
+      <!-- 
+
+      
+
+       -->
+    </td>
+
+    <!-- Lab Column -->
+    
+      <td class="lab__info"> </td>
+    
+
+    <!-- Discussion Column -->
+    
+      <td class="disc__info"> </td>
+    
+
+    <!-- Homework Column -->
+    
+      <td class="hw__info"> </td>
+    
+
+
+
+  </tr>
+  
+
+
+  <!-- Use this block if starting lecture date is week begin -->
+  
+  
+  
+
+  <!-- Use this block if starting lecture data is not week begin -->
+  
+
+  <tr class="lecture" data-lecture-week="15" data-lecture-date="Tuesday 12/1/20">
+
+    <!-- Week Column  -->
+    
+      <td class="lecture__week" id="lecture-week-15" rowspan="2">
+        15
+      </td>
+    
+
+    <!-- Lecture Column -->
+    <th class="lecture__num">
+      28
+    </th>
+
+    <!-- Data Column -->
+    <td class="lecture__date">
+      Tuesday 12/1/20
+    </td>
+
+    <!-- Topic Column -->
+    <td class="lecture__info">
+      <h3>
+        Differential Privacy
+        
+        <!--  -->
+      </h3>
+
+      <!-- the second class field for description is used to un-hidden the field -->
+      <p class="lecture__description description-week-15" hidden="true">
+          
+      </p>
+      
+      
+      <!-- 
+
+      
+
+       -->
+    </td>
+
+    <!-- Lab Column -->
+    
+      <td class="lab__info"> </td>
+    
+
+    <!-- Discussion Column -->
+    
+      <td class="disc__info"> </td>
+    
+
+    <!-- Homework Column -->
+    
+      <td class="hw__info"> </td>
+    
+
+
+
+  </tr>
+  
+
+
+  <!-- Use this block if starting lecture date is week begin -->
+  
+  
+  
+
+  <!-- Use this block if starting lecture data is not week begin -->
+  
+
+  <tr class="lecture" data-lecture-week="15" data-lecture-date="Thursday 12/3/20">
+
+    <!-- Week Column  -->
+    
+
+    <!-- Lecture Column -->
+    <th class="lecture__num">
+      29
+    </th>
+
+    <!-- Data Column -->
+    <td class="lecture__date">
+      Thursday 12/3/20
+    </td>
+
+    <!-- Topic Column -->
+    <td class="lecture__info">
+      <h3>
+        Wrap-up Lecture
+        
+        <!--  -->
+      </h3>
+
+      <!-- the second class field for description is used to un-hidden the field -->
+      <p class="lecture__description description-week-15" hidden="true">
+          
+      </p>
+      
+      
+      <!-- 
+
+      
+
+       -->
+    </td>
+
+    <!-- Lab Column -->
+    
+      <td class="lab__info"> </td>
+    
+
+    <!-- Discussion Column -->
+    
+      <td class="disc__info"> </td>
+    
+
+    <!-- Homework Column -->
+    
+      <td class="hw__info"> </td>
+    
+
+
+
+  </tr>
+  
+
+
+  <!-- Use this block if starting lecture date is week begin -->
+  
+  
+  
+
+  <!-- Use this block if starting lecture data is not week begin -->
+  
+
+  <tr class="lecture" data-lecture-week="16" data-lecture-date="Tuesday 12/8/20">
+
+    <!-- Week Column  -->
+    
+      <td class="lecture__week" id="lecture-week-16" rowspan="2">
+        16
+      </td>
+    
+
+    <!-- Lecture Column -->
+    <th class="lecture__num">
+      30
+    </th>
+
+    <!-- Data Column -->
+    <td class="lecture__date">
+      Tuesday 12/8/20
+    </td>
+
+    <!-- Topic Column -->
+    <td class="lecture__info">
+      <h3>
+        RRR week
+        
+        <!--  -->
+      </h3>
+
+      <!-- the second class field for description is used to un-hidden the field -->
+      <p class="lecture__description description-week-16" hidden="true">
+          
+      </p>
+      
+      
+      <!-- 
+
+      
+
+       -->
+    </td>
+
+    <!-- Lab Column -->
+    
+      <td class="lab__info"> </td>
+    
+
+    <!-- Discussion Column -->
+    
+      <td class="disc__info"> </td>
+    
+
+    <!-- Homework Column -->
+    
+      <td class="hw__info"> </td>
+    
+
+
+
+  </tr>
+  
+
+
+  <!-- Use this block if starting lecture date is week begin -->
+  
+  
+  
+
+  <!-- Use this block if starting lecture data is not week begin -->
+  
+
+  <tr class="lecture" data-lecture-week="16" data-lecture-date="Thursday 12/10/20">
+
+    <!-- Week Column  -->
+    
+
+    <!-- Lecture Column -->
+    <th class="lecture__num">
+      31
+    </th>
+
+    <!-- Data Column -->
+    <td class="lecture__date">
+      Thursday 12/10/20
+    </td>
+
+    <!-- Topic Column -->
+    <td class="lecture__info">
+      <h3>
+        RRR week
+        
+        <!--  -->
+      </h3>
+
+      <!-- the second class field for description is used to un-hidden the field -->
+      <p class="lecture__description description-week-16" hidden="true">
+          
+      </p>
+      
+      
+      <!-- 
+
+      
+
+       -->
+    </td>
+
+    <!-- Lab Column -->
+    
+      <td class="lab__info"> </td>
+    
+
+    <!-- Discussion Column -->
+    
+      <td class="disc__info"> </td>
+    
+
+    <!-- Homework Column -->
+    
+      <td class="hw__info"> </td>
+    
+
+
+
+  </tr>
+  
+
+
+  <!-- Use this block if starting lecture date is week begin -->
+  
+  
+  
+
+  <!-- Use this block if starting lecture data is not week begin -->
+  
+
+  <tr class="lecture" data-lecture-week="17" data-lecture-date="Tuesday 12/15/20">
+
+    <!-- Week Column  -->
+    
+      <td class="lecture__week" id="lecture-week-17" rowspan="2">
+        17
+      </td>
+    
+
+    <!-- Lecture Column -->
+    <th class="lecture__num">
+      32
+    </th>
+
+    <!-- Data Column -->
+    <td class="lecture__date">
+      Tuesday 12/15/20
+    </td>
+
+    <!-- Topic Column -->
+    <td class="lecture__info">
+      <h3>
+        Final Exam
+        
+        <!--  -->
+      </h3>
+
+      <!-- the second class field for description is used to un-hidden the field -->
+      <p class="lecture__description description-week-17" hidden="true">
+          
+      </p>
+      
+      
+      <!-- 
+
+      
+
+       -->
+    </td>
+
+    <!-- Lab Column -->
+    
+      <td class="lab__info"> </td>
+    
+
+    <!-- Discussion Column -->
+    
+      <td class="disc__info"> </td>
+    
+
+    <!-- Homework Column -->
+    
+      <td class="hw__info"> </td>
+    
+
+
+
+  </tr>
+  
+
+
+
+
+    </tbody>
+  </table>
+</div>
+
+<!--
+Script to highlight the current lecture.
+-->
+
+<script type="text/javascript">
+const current_date = new Date();
+const lectures = document.getElementsByClassName('lecture');
+
+for (var i = 0; i < lectures.length; i++ ) {
+  let lecture = lectures[i];
+  const { lectureWeek, lectureDate } = lecture.dataset;
+  const lec_date = new Date(lectureDate + ' 23:59:59');
+
+  // We need to find the first occurance of lecture that pass today's date
+  if (current_date <= lec_date) {
+    lecture.className += ' lecture--current';
+
+    // Need to look up the week element since it might be in the row above
+    const weekEl = document.getElementById(`lecture-week-${lectureWeek}`);
+    weekEl.className += ' lecture__week--current';
+
+    // We will show the description for lectures in the coming week
+    const descEls = document.getElementsByClassName(`description-week-${lectureWeek}`);
+    for (var j = 0; j < descEls.length; j++) {
+      descEl = descEls[j];
+      descEl.hidden = null;
+    }
+
+    break;
+  }
+
+  window.location.hash = `lecture-week-${lectureWeek}`;
+}
+</script>
+
+
+</main>
+
+  </div>
+</body>
+</html>
