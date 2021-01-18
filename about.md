@@ -33,7 +33,7 @@ The course structure this semester is different from previous semesters as we ad
 
 <!-- **If you are requesting an extension for a HW or lab assignment (due to either DSP accommodations or other extenuating circumstances), please email any of the GSIs prior to the original deadline date.** Please avoid emailing the professors. -->
 
-## Lab, Discussion, and Office Hours Schedules
+## Office Hours Schedules
 
 See Piazza posts for corresponding Zoom links.
 
