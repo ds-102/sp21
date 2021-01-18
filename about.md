@@ -20,22 +20,25 @@ All course announcements will be made on Piazza.
 
 The course structure this semester is different from previous semesters as we adapt to remote learning. For changes to grading, see the grading tab.
 
-**Lecture:** Each lecture will be released as pre-recorded video and linked to from the main course page. You must view each lecture’s video before the corresponding discussion section.
+**Lecture:** Each lecture will be released as a playlist of short, 3-15 minute videos totalling about an hour (total length will vary from lecture to lecture), linked to from the main course page. We ask that you view each lecture’s video before the corresponding discussion session. We’ll have Piazza threads for each lecture where you can ask questions.
+
 
 **Discussion session:**
 
-* **When:** Tuesdays and Thursdays from 9:40AM to 10:30AM, OR alternate time slot (to be announced)
-* **Where:** Remote instruction. See Piazza posts for corresponding Zoom links.
-* **What:** Discussion of the corresponding lecture’s contents (see main page for schedule). Every lecture will come with a short worksheet that is due before the start of the discussion session (9:40 am Tuesdays and Thursdays). Attendance is highly encouraged but not mandatory. An alternate discussion time slot will be arranged for students for whom the main timeslot is unavailable or inconvenient.
+* **When:** Tuesdays and Thursdays from 10:10 AM to 11:00 AM, OR alternate time slot (to be announced)
+* **Where:** Remote instruction over Zoom. See Piazza posts for corresponding Zoom links.
+* **What:** Discussion of the corresponding lecture’s contents (see main page for schedule). Discussion sessions will help you bridge the big ideas in lecture videos with the problem-solving skills you’ll need for the homework.
+  * Every lecture will come with a short worksheet that is due before the start of the discussion session (10:10 am Tuesdays and Thursdays). We’d like you to attempt each problem and either provide your solution, or a short explanation of where you got stuck. You can either fill in your answers in the provided notebook or on paper, and upload your responses to the corresponding Gradescope assignment.
+  * Attendance is highly encouraged but not mandatory. These sessions will be recorded and released the following day. An alternate discussion time slot will be arranged for students with conflicts or time zone issues with the default time.
 
-**Lab:** There will be no lab meetings.
+**Lab:** There will be no lab meetings: we ask that you complete lab assignments on your own time and use office hours to get help from course staff.
 
 
 <!-- **If you are requesting an extension for a HW or lab assignment (due to either DSP accommodations or other extenuating circumstances), please email any of the GSIs prior to the original deadline date.** Please avoid emailing the professors. -->
 
 ## Office Hours Schedules
 
-See Piazza posts for corresponding Zoom links.
+Office hours will be announced soon on Piazza. See Piazza posts for corresponding Zoom links.
 
 <!-- <iframe src="https://calendar.google.com/calendar/embed?src=c_i6vcnkqpt1pl5rfp8dsqle1kus%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe> -->
 
@@ -66,6 +69,6 @@ See Piazza posts for Zoom OH links.
 
 ## TAs
 
-See Piazza posts for corresponding Zoom links.
+See Piazza posts for corresponding Zoom OH links.
 
 {% include staff_entries.html %}

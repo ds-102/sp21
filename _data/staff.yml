@@ -1,23 +1,23 @@
 - email: erika.n.mack@berkeley.edu 
-  image: https://mcurmei627.github.io/images/profile_.jpg
+  image: "assets/staff/erika_mack.jpg"
   oh_info:
   - "OH: TBA"
   name: Erika Mack
 
 - email: yiwendai99@berkeley.edu 
-  image: https://mcurmei627.github.io/images/profile_.jpg
+  image: "assets/staff/ewen_dai.jpg"
   oh_info:
   - "OH: TBA"
   name: Ewen Dai
 
 - email: rroggenkemper@berkeley.edu 
-  image: https://mcurmei627.github.io/images/profile_.jpg
+  image: "assets/staff/ryan_roggenkemper.jpg"
   oh_info:
   - "OH: TBA"
   name: Ryan Roggenkemper
 
 - email: xingyu.jin21@berkeley.edu 
-  image: https://mcurmei627.github.io/images/profile_.jpg
+  image: "assets/staff/xingyu_jin.jpg"
   oh_info:
   - "OH: TBA"
   name: Xingyu Jin
