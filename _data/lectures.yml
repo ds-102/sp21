@@ -30,9 +30,8 @@
 
 - date: Tuesday 1/19/21
   topic: Course Overview, Making Decisions Under Uncertainty
-  description: We provide an overview of data science and where it might head in the future.
-    We discuss the importance of decision-making rather than simple inference. As a first step in this direction we
-    cover the different angles through which a simple hypothesis test can be viewed.
+  description:
+  video: https://www.youtube.com/watch?v=mNFe5_8wp8E&list=PLSEfoRJ1f3UOCQr1LdnyCGQ8pWQWjjHHX&index=1
   resources: |
     - [Artificial Intelligence — The Revolution Hasn’t Happened Yet](https://hdsr.mitpress.mit.edu/pub/wot7mkc1)
     - Discussion by nine commentators [1](https://hdsr.mitpress.mit.edu/pub/djb16hzl?readingCollection=72befc2a), [2](https://hdsr.mitpress.mit.edu/pub/kyzf7fjv?readingCollection=72befc2a), [3](https://hdsr.mitpress.mit.edu/pub/rim3pvdw?readingCollection=72befc2a), [4](https://hdsr.mitpress.mit.edu/pub/pqddq8u5?readingCollection=72befc2a), [5](https://hdsr.mitpress.mit.edu/pub/wiq01ru6?readingCollection=72befc2a), [6](https://hdsr.mitpress.mit.edu/pub/pjebp7io?readingCollection=72befc2a), [7](https://hdsr.mitpress.mit.edu/pub/plto69bh?readingCollection=72befc2a)
@@ -40,14 +39,11 @@
 
 - date: Thursday 1/21/21
   topic: Multiple Hypothesis Testing
-  description: We continue investigating the different ways of understanding error in hypothesis testing.
-    We introduce the Neyman-Pearson principle and Neyman-Pearson Lemma for controlling error in a single test, and
-    also introduce the challenges involved in multiple hypothesis testing.
+  description:
 
 - date: Tuesday 1/26/21
   topic: False Discovery Rate Control
-  description: We consider the Bonferroni test, which is a naive way of controlling the family-wise error rate.
-    We then look into Benjamini-Hochberg which is a more elaborate method that controls the false discovery rate.
+  description:
 
 - date: Thursday 1/28/21
   topic: Online False Discovery Rate Control
