@@ -4,7 +4,7 @@ title: "Syllabus"
 page_class: content-wide
 ---
 
-This syllabus is under development and is subject to change. Unless otherwise noted, recorded videos for discussions will be released Tuesdays and Wednesday discussion hours will be reserved for questions about the discussion material. Labs, discussions, and HW releases/deadlines will occur on the Monday, Wednesday, and Fridays following the dates below, respectively.
+This syllabus is under development and is subject to change. Unless otherwise noted, lecture videos will be released at least two days before the corresponding discussion session. Due dates for homework and lab assignments will be announced shortly.
 
 **If you are requesting an extension for a HW or lab assignment (due to DSP accommodations), please email any of the GSIs prior to the original deadline date.** Please avoid emailing the professors.
 
