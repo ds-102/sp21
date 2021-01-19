@@ -39,6 +39,7 @@
     {% if lecture.topic contains "Midterm" %}
     <!-- Don't count midterm as a lecture; decrement displayed number (incremented in each loop) -->
     	{% assign lecture_counter_disp = lecture_counter_disp | minus: 1 %}
+    	<th class="lecture__num"></th>
     {% else %}
 	    <th class="lecture__num">
 	      {{ lecture_counter_disp }}
@@ -104,6 +105,8 @@
       <td class="lecture__slides">
           <a href="{{ lecture.slides }}">Slides</a>
       </td>
+    {% else %}
+      <td class="lecture__slides"> </td>
     {% endif %}
 
     <!-- Video Column -->
@@ -111,6 +114,8 @@
       <td class="lecture__video">
           <a href="{{ lecture.video }}">Video</a>
       </td>
+    {% else %}
+      <td class="lecture__video"> </td>
     {% endif %}
 
     <!-- Lab Column -->
