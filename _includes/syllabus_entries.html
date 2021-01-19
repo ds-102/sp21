@@ -1,4 +1,5 @@
-{% assign lecture_counter = 0 %}
+{% assign lecture_counter = 0 %} <!-- For counting weeks -->
+{% assign lecture_counter_disp = 0 %} <!-- For showing in table (ignores midterms) -->
 
 {% for lecture in site.data.lectures %}
 
@@ -13,6 +14,10 @@
   {% assign week = lecture_counter | plus: 1 | divided_by: 2.0 | ceil %}
   {% assign is_off_week = true %}
   {% endcomment %}
+
+<!-- Having line below here 1-indexes the lectures without changing week structure -->
+  {% assign lecture_counter = lecture_counter | plus: 1 %}
+  {% assign lecture_counter_disp = lecture_counter_disp | plus: 1 %}
 
   <tr class="lecture"
       data-lecture-week="{{ week }}"
@@ -30,9 +35,15 @@
     {% endif %}
 
     <!-- Lecture Column -->
-    <th class="lecture__num">
-      {{ lecture_counter }}
-    </th>
+    <!-- Check if it's a midterm -->
+    {% if lecture.topic contains "Midterm" %}
+    <!-- Don't count midterm as a lecture; decrement displayed number (incremented in each loop) -->
+    	{% assign lecture_counter_disp = lecture_counter_disp | minus: 1 %}
+    {% else %}
+	    <th class="lecture__num">
+	      {{ lecture_counter_disp }}
+	    </th>
+    {% endif %}
 
     <!-- Data Column -->
     <td class="lecture__date">
@@ -132,5 +143,4 @@
 
 
   </tr>
-  {% assign lecture_counter = lecture_counter | plus: 1 %}
 {% endfor %}
