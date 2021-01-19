@@ -15,8 +15,8 @@ permalink: /:categories/:year/:month/:day/:title
 exclude: ["readme.md"]
 highlighter: rouge
 
-title: Data 102 Fall 20
-tagline: Principles and Techniques of Data Science
+title: Data 102 Spring 2021
+tagline: Data, Inference, and Decisions
 
 baseurl: '/sp21'
 
