@@ -101,9 +101,9 @@
     </td>
 
     <!-- Slides Column -->
-    {% if lecture.slides %}
+    {% if lecture.lab %}
       <td class="lecture__slides">
-          <a href="{{ lecture.slides }}">Slides</a>
+          {{ lecture.slides | markdownify }}
       </td>
     {% else %}
       <td class="lecture__slides"> </td>

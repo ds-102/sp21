@@ -31,7 +31,8 @@
 - date: Tuesday 1/19/21
   topic: Course Overview, Making Decisions Under Uncertainty
   description:
-  slides: assets/slides/lecture01.pdf
+  slides: |
+    - [Slides](assets/slides/lecture01.pdf)
   video: https://www.youtube.com/watch?v=mNFe5_8wp8E&list=PLSEfoRJ1f3UOCQr1LdnyCGQ8pWQWjjHHX&index=1
   resources: |
     - [Artificial Intelligence — The Revolution Hasn’t Happened Yet](https://hdsr.mitpress.mit.edu/pub/wot7mkc1)
