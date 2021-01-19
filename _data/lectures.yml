@@ -10,7 +10,7 @@
 #   description: Longer description of lecture content
 #   slides: url to the lecture slide
 #   video: url for lecture video
-#   readings: markdown text for resources
+#   resources: markdown text for resources
 #   lab
 #   discussion
 #   homework
@@ -33,7 +33,7 @@
   description:
   slides: assets/slides/lecture01.pdf
   video: https://www.youtube.com/watch?v=mNFe5_8wp8E&list=PLSEfoRJ1f3UOCQr1LdnyCGQ8pWQWjjHHX&index=1
-  readings: |
+  resources: |
     - [Artificial Intelligence — The Revolution Hasn’t Happened Yet](https://hdsr.mitpress.mit.edu/pub/wot7mkc1)
     - (Optional) Discussion by nine commentators [1](https://hdsr.mitpress.mit.edu/pub/djb16hzl?readingCollection=72befc2a), [2](https://hdsr.mitpress.mit.edu/pub/kyzf7fjv?readingCollection=72befc2a), [3](https://hdsr.mitpress.mit.edu/pub/rim3pvdw?readingCollection=72befc2a), [4](https://hdsr.mitpress.mit.edu/pub/pqddq8u5?readingCollection=72befc2a), [5](https://hdsr.mitpress.mit.edu/pub/wiq01ru6?readingCollection=72befc2a), [6](https://hdsr.mitpress.mit.edu/pub/pjebp7io?readingCollection=72befc2a), [7](https://hdsr.mitpress.mit.edu/pub/plto69bh?readingCollection=72befc2a)
     - (Optional) [Dr. AI or: How I Learned to Stop Worrying and Love Economics](https://hdsr.mitpress.mit.edu/pub/2imtstfu?readingCollection=72befc2a)
