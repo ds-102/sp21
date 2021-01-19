@@ -44,7 +44,7 @@
   description: We discuss concepts like TPR, FPR and FDP.
   slides: assets/slides/lecture02.pdf
   video: https://www.youtube.com/watch?v=tGJyOScYlnw&list=PLSEfoRJ1f3UPExXFUtgA65_Hy16hXsl-s
-  discussion: [Lecture worksheet](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion02/lecture2_worksheet.ipynb)
+  discussion: [Lecture worksheet](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion02/]lecture2_worksheet.ipynb)
 
 - date: Tuesday 1/26/21
   topic: P-Values and Multiple Hypothesis Testing
