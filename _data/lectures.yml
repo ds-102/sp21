@@ -38,21 +38,21 @@
     - [Dr. AI or: How I Learned to Stop Worrying and Love Economics](https://hdsr.mitpress.mit.edu/pub/2imtstfu?readingCollection=72befc2a)
 
 - date: Thursday 1/21/21
-  topic: Multiple Hypothesis Testing
+  topic: Binary Decision-Making
   description:
 
 - date: Tuesday 1/26/21
-  topic: False Discovery Rate Control
+  topic: P-Values and Multiple Hypothesis Testing
   description:
 
 - date: Thursday 1/28/21
   topic: Online False Discovery Rate Control
 
 - date: Tuesday 2/2/21
-  topic: Frequentist and Bayesian Decision-Making, Privacy, Fairness
+  topic: Frequentist vs. Bayesian Decision-Making
 
 - date: Thursday 2/4/21
-  topic: Review of Bayesian Modeling
+  topic: Overview of Bayesian Modeling
 
 - date: Tuesday 2/9/21
   topic: Graphical Models
