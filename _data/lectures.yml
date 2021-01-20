@@ -32,7 +32,7 @@
   topic: Course Overview, Making Decisions Under Uncertainty
   description:
   slides: |
-    - [Slides](assets/slides/lecture01.pdf)
+    - [Fall20 Slides](assets/slides/lecture01.pdf)
   video: https://www.youtube.com/watch?v=mNFe5_8wp8E&list=PLSEfoRJ1f3UOCQr1LdnyCGQ8pWQWjjHHX&index=1
   resources: |
     - [Artificial Intelligence — The Revolution Hasn’t Happened Yet](https://hdsr.mitpress.mit.edu/pub/wot7mkc1)
@@ -44,7 +44,7 @@
   topic: Binary Decision-Making
   description: We discuss concepts like TPR, FPR and FDP.
   slides: |
-    - [Slides](assets/slides/lecture02.pdf)
+    - [Fall20 Slides](assets/slides/lecture02.pdf)
   video: https://www.youtube.com/watch?v=tGJyOScYlnw&list=PLSEfoRJ1f3UPExXFUtgA65_Hy16hXsl-s
   discussion: |
     - [Lecture worksheet](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion02/lecture2_worksheet.ipynb)
