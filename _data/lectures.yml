@@ -51,7 +51,12 @@
 
 - date: Tuesday 1/26/21
   topic: P-Values and Multiple Hypothesis Testing
-  description:
+  description: We define p-values, introduce the problem of multiple hypothesis testing, and talk about the Bonferroni and Benjamini-Hochberg procedures for addressing it.
+  slides: |
+    - [Fall20 Slides](assets/slides/lecture03.pdf)
+  video: https://www.youtube.com/watch?v=1RsG49iJS4Q&list=PLSEfoRJ1f3UOqAU44c8A4XNEc0BNgwbys
+  discussion: |
+    - [Lecture worksheet](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion03/lecture3_worksheet.ipynb)
 
 - date: Thursday 1/28/21
   topic: Online False Discovery Rate Control
