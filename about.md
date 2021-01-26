@@ -40,7 +40,7 @@ The course structure this semester is different from previous semesters as we ad
 
 Please see Piazza posts for corresponding Zoom links.
 
-<iframe src="https://calendar.google.com/calendar/embed?src=c_mju044j7hnf5o20hdj176kjr8s%40group.calendar.google.com&ctz=America%2FLos_Angeles;mode=WEEK" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%234285F4&amp;ctz=America%2FLos_Angeles&amp;src=Y19tanUwNDRqN2huZjVvMjBoZGoxNzZranI4c0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%233F51B5&amp;mode=WEEK&amp;showTitle=0&amp;showPrint=0&amp;showTabs=0" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 <!-- <iframe src="https://calendar.google.com/calendar/embed?src=c_i6vcnkqpt1pl5rfp8dsqle1kus%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe> -->
 
 <!-- <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=berkeley.edu_j925o99uns4c0dmr73rief7274%40group.calendar.google.com&amp;src=berkeley.edu_9orffahki30fjqmfpuulengrk0@group.calendar.google.com&amp;color=%23BE6D00&amp;ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe> -->
