@@ -38,7 +38,9 @@ The course structure this semester is different from previous semesters as we ad
 
 ## Office Hours Schedules
 
-Office hours will be announced soon on Piazza. See Piazza posts for corresponding Zoom links.
+Please see Piazza posts for corresponding Zoom links.
+
+<iframe src="https://calendar.google.com/calendar/embed?src=c_mju044j7hnf5o20hdj176kjr8s%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 <!-- <iframe src="https://calendar.google.com/calendar/embed?src=c_i6vcnkqpt1pl5rfp8dsqle1kus%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe> -->
 
