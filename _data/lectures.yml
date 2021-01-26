@@ -59,6 +59,8 @@
   video: https://www.youtube.com/watch?v=1RsG49iJS4Q&list=PLSEfoRJ1f3UOqAU44c8A4XNEc0BNgwbys
   discussion: |
     - [Lecture worksheet](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion03/lecture3_worksheet.ipynb)
+  lab: |
+    - [Lab 01](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab01/lab01.ipynb)
 
 - date: Thursday 1/28/21
   topic: Online False Discovery Rate Control & ROC curves
