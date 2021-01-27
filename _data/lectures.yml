@@ -70,6 +70,7 @@
   description: 
   slides: |
     - [Fall20 Slides](assets/slides/lecture04.pdf)
+    - [ROC notebook](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=assets/ROC.ipynb)
   video: https://www.youtube.com/watch?v=X34B2hMcdoY&list=PLSEfoRJ1f3UMTWNFevh15vDOcvv1QIxv3
   discussion : |
     - [Lecture worksheet](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion04/lecture4_worksheet.ipynb)
