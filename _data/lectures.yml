@@ -61,6 +61,8 @@
     - [Lecture worksheet](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion03/lecture3_worksheet.ipynb)
   lab: |
     - [Lab 01](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab01/lab01.ipynb)
+  homework: |
+    - [HW 01](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=homework/hw01/hw01.pdf)
 
 - date: Thursday 1/28/21
   topic: Online False Discovery Rate Control & ROC curves
