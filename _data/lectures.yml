@@ -77,6 +77,12 @@
 
 - date: Tuesday 2/2/21
   topic: Frequentist vs. Bayesian Decision-Making
+  slides: |
+    - [Fall20 Slides](assets/slides/lecture05.pdf)
+    - [Spring20 Notes](assets/slides/notes05.pdf)
+  discussion: |
+    - [Lecture worksheet](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion05/lecture5_worksheet.ipynb)
+
 
 - date: Thursday 2/4/21
   topic: Overview of Bayesian Modeling
