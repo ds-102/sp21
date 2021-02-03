@@ -93,6 +93,11 @@
 
 - date: Thursday 2/4/21
   topic: Overview of Bayesian Modeling
+  slides: |
+    - [Demo notebook](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lecture/lecture06/bayes_intro.ipynb)
+  discussion: |
+    - [Lecture worksheet](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion06/lecture6_workshee    t.ipynb)
+  video: https://www.youtube.com/watch?v=QeNHYU030gs&list=PLSEfoRJ1f3UOanm7DlXqOjdJjNM1-YVlH
 
 - date: Tuesday 2/9/21
   topic: Graphical Models
