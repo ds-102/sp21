@@ -63,6 +63,7 @@
     - [Slides](https://docs.google.com/presentation/d/1mAYq3vlQfjeTzWTwb44j2DIMDc4gHpDVhP9G7lRTWBw/edit?usp=sharing)
   lab: |
     - [Lab 01](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab01/lab01.ipynb)
+    - [Lab 01 Solutions](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab01/lab01_solutions.ipynb)
   homework: |
     - [HW 01](https://github.com/ds-102/sp21/raw/master/homework/hw01/hw01.zip)
 
@@ -86,6 +87,8 @@
   discussion: |
     - [Lecture worksheet](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion05/lecture5_worksheet.ipynb)
   video: https://www.youtube.com/watch?v=hEM154cCESA&list=PLSEfoRJ1f3UOtsV2AMetAFVngp1fDCGc8
+  lab: |
+    - [Lab 02](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab02/lab02.ipynb)
 
 
 - date: Thursday 2/4/21
