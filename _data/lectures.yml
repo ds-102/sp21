@@ -102,6 +102,11 @@
 
 - date: Tuesday 2/9/21
   topic: Graphical Models
+  slides: |
+    - [Lecture slides](https://data102.org/fa20/assets/lectures/lecture7.pdf)
+  discussion: |
+    - [Lecture worksheet](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion07/lecture7_worksheet.ipynb)
+  video: https://www.youtube.com/watch?v=0jJGIAlR6DI&list=PLSEfoRJ1f3UOcSxA5ORZ3RRRiGiQ0DAS5&index=1
 
 - date: Thursday 2/11/21
   topic: Rejection Sampling and Markov Chains
