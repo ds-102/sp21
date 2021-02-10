@@ -112,6 +112,12 @@
 
 - date: Thursday 2/11/21
   topic: Rejection Sampling and Markov Chains
+  slides: |
+    - [Lecture slides](https://data102.org/fa20/assets/lectures/lecture8.pdf)
+  discussion: |
+    - [Lecture worksheet](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion08/lecture8_worksheet.ipynb)
+  video: https://www.youtube.com/watch?v=EBovWQneqnA&list=PLSEfoRJ1f3UNcofRY6RtE_WyQFmioe_ad
+
 
 - date: Tuesday 2/16/21
   topic: MCMC and Gibbs Sampling
