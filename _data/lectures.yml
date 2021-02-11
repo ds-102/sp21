@@ -34,6 +34,7 @@
   slides: |
     - [Fall20 Slides](assets/slides/lecture01.pdf)
   video: https://www.youtube.com/watch?v=mNFe5_8wp8E&list=PLSEfoRJ1f3UOCQr1LdnyCGQ8pWQWjjHHX&index=1
+  recording: https://piazza.com/class/kjv4lczgzgq1hc
   resources: |
     - [Artificial Intelligence — The Revolution Hasn’t Happened Yet](https://hdsr.mitpress.mit.edu/pub/wot7mkc1)
     - (Optional) Discussion by nine commentators [1](https://hdsr.mitpress.mit.edu/pub/djb16hzl?readingCollection=72befc2a), [2](https://hdsr.mitpress.mit.edu/pub/kyzf7fjv?readingCollection=72befc2a), [3](https://hdsr.mitpress.mit.edu/pub/rim3pvdw?readingCollection=72befc2a), [4](https://hdsr.mitpress.mit.edu/pub/pqddq8u5?readingCollection=72befc2a), [5](https://hdsr.mitpress.mit.edu/pub/wiq01ru6?readingCollection=72befc2a), [6](https://hdsr.mitpress.mit.edu/pub/pjebp7io?readingCollection=72befc2a), [7](https://hdsr.mitpress.mit.edu/pub/plto69bh?readingCollection=72befc2a)
@@ -46,6 +47,7 @@
   slides: |
     - [Fall20 Slides](assets/slides/lecture02.pdf)
   video: https://www.youtube.com/watch?v=tGJyOScYlnw&list=PLSEfoRJ1f3UPExXFUtgA65_Hy16hXsl-s
+  recording: https://piazza.com/class/kjv4lczgzgq1hc
   discussion: |
     - [Lecture worksheet](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion02/lecture2_worksheet.ipynb)
     - [Solutions](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion02/lecture2_worksheet_solutions.ipynb)
@@ -57,6 +59,7 @@
   slides: |
     - [Fall20 Slides](assets/slides/lecture03.pdf)
   video: https://www.youtube.com/watch?v=1RsG49iJS4Q&list=PLSEfoRJ1f3UOqAU44c8A4XNEc0BNgwbys
+  recording: https://piazza.com/class/kjv4lczgzgq1hc
   discussion: |
     - [Lecture worksheet](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion03/lecture3_worksheet.ipynb)
     - [Solutions](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion03/lecture3_worksheet_solutions.ipynb)
@@ -74,6 +77,7 @@
     - [Fall20 Slides](assets/slides/lecture04.pdf)
     - [ROC notebook](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=assets/ROC.ipynb)
   video: https://www.youtube.com/watch?v=X34B2hMcdoY&list=PLSEfoRJ1f3UMTWNFevh15vDOcvv1QIxv3
+  recording: https://piazza.com/class/kjv4lczgzgq1hc
   discussion : |
     - [Lecture worksheet](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion04/lecture4_worksheet.ipynb)
     - [Solutions](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion04/lecture4_worksheet_solutions.ipynb)
@@ -88,6 +92,7 @@
     - [Lecture worksheet](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion05/lecture5_worksheet.ipynb)
     - [Solutions](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion05/lecture5_worksheet_solutions.ipynb)
   video: https://www.youtube.com/watch?v=hEM154cCESA&list=PLSEfoRJ1f3UOtsV2AMetAFVngp1fDCGc8
+  recording: https://piazza.com/class/kjv4lczgzgq1hc
   lab: |
     - [Lab 02](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab02/lab02.ipynb)
     - [Lab 02 Solutions](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab02/lab02_solutions.ipynb)
@@ -100,6 +105,7 @@
   discussion: |
     - [Lecture worksheet](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion06/lecture6_worksheet.ipynb)
   video: https://www.youtube.com/watch?v=QeNHYU030gs&list=PLSEfoRJ1f3UOanm7DlXqOjdJjNM1-YVlH
+  recording: https://piazza.com/class/kjv4lczgzgq1hc
 
 - date: Tuesday 2/9/21
   topic: Graphical Models
@@ -108,6 +114,7 @@
   discussion: |
     - [Lecture worksheet](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion07/lecture7_worksheet.ipynb)
   video: https://www.youtube.com/watch?v=0jJGIAlR6DI&list=PLSEfoRJ1f3UOcSxA5ORZ3RRRiGiQ0DAS5&index=1
+  recording: https://piazza.com/class/kjv4lczgzgq1hc
   lab: |
     - [Lab 03](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab03/lab03.ipynb)
   homework: |
