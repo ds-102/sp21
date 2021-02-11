@@ -112,10 +112,28 @@
     <!-- Video Column -->
     {% if lecture.video %}
       <td class="lecture__video">
-          <a href="{{ lecture.video }}">Video</a>
+          <a href="{{ lecture.video }}">Videos</a>
       </td>
     {% else %}
       <td class="lecture__video"> </td>
+    {% endif %}
+
+    <!-- Discussion Recordings Column -->
+    {% if lecture.recording %}
+      <td class="disc__recording">
+          <a href="{{ lecture.recording }}">Video</a>
+      </td>
+    {% else %}
+      <td class="disc__recording"> </td>
+    {% endif %}
+
+    <!-- Discussion Materials (worksheet, solutions) Column -->
+    {% if lecture.discussion %}
+      <td class="disc__info">
+          {{ lecture.discussion | markdownify }}
+      </td>
+    {% else %}
+      <td class="disc__info"> </td>
     {% endif %}
 
     <!-- Lab Column -->
@@ -125,15 +143,6 @@
       </td>
     {% else %}
       <td class="lab__info"> </td>
-    {% endif %}
-
-    <!-- Discussion Column -->
-    {% if lecture.discussion %}
-      <td class="disc__info">
-          {{ lecture.discussion | markdownify }}
-      </td>
-    {% else %}
-      <td class="disc__info"> </td>
     {% endif %}
 
     <!-- Homework Column -->

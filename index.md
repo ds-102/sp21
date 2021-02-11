@@ -76,9 +76,10 @@ This syllabus is under development and is subject to change. Unless otherwise no
         <th> Date </th>
         <th> Topic </th>
         <th> Slides </th>
-        <th> Video </th>
+        <th> Lecture </th>
+        <th> Discussion Recordings</th>
+        <th> Discussion Materials</th>
         <th> Lab </th>
-        <th> Discussion </th>
         <th> Homework </th>
       </tr>
     </thead>
