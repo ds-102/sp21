@@ -137,6 +137,8 @@
   discussion: |
     - [Lecture worksheet](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion09/lecture9_worksheet.ipynb)
   video: https://www.youtube.com/watch?v=R1HuaAiUK_s&list=PLSEfoRJ1f3UPbuV5DK2izCzg3MzoYChkS
+  lab: |
+    - [Lab 04](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab04/lab04.ipynb)
 
 - date: Thursday 2/18/21
   topic: Regression (Bayesian)
