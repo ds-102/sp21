@@ -141,7 +141,15 @@
     - [Lab 04](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab04/lab04.ipynb)
 
 - date: Thursday 2/18/21
-  topic: Regression (Bayesian)
+  topic: Regression and GLMs
+  slides: |
+    - [Regression review explainer notebook](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lecture/lecture10/Regression%20review.ipynb)
+    - [Generalized Linear Model notebook](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lecture/lecture10/glms.ipynb)
+  discussion: |
+    - [Lecture worksheet](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion10/lecture10_worksheet.ipynb)
+  video: https://www.youtube.com/watch?v=JKB6ibuge00&list=PLSEfoRJ1f3UNkygyedGqQMslzA5gPd8m9
+  lab:
+
 
 - date: Tuesday 2/23/21
   topic: Regression (Frequentist)
