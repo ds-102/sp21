@@ -154,6 +154,8 @@
 
 - date: Tuesday 2/23/21
   topic: Regression (Frequentist)
+  homework: |
+    - [HW 03](https://github.com/ds-102/sp21/raw/master/homework/hw03/hw03.pdf)
 
 - date: Thursday 2/25/21
   topic: Bootstrap
