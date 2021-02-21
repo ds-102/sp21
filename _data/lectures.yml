@@ -153,7 +153,13 @@
 
 
 - date: Tuesday 2/23/21
-  topic: Regression (Frequentist)
+  topic: Model checking for GLMs
+  slides: |
+    - [Slides](assets/slides/sp21_lecture11_slides.pdf)
+    - [Demo notebook 1](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lecture/lecture11/01_rf_vs_glm.ipynb)
+    - [Demo notebook 2](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lecture/lecture11/02_misspecified_glm.ipynb)
+    - [Demo notebook 3](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lecture/lecture11/03_posterior_predictive_checks.ipynb)
+  video: https://www.youtube.com/watch?v=W3JWBi9768E&list=PLSEfoRJ1f3UOM0Wuv58za78mmDu3j11kF&index=1
   homework: |
     - [HW 03](https://github.com/ds-102/sp21/raw/master/homework/hw03/hw03.pdf)
 
