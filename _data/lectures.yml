@@ -163,10 +163,14 @@
   homework: |
     - [HW 03](https://github.com/ds-102/sp21/raw/master/homework/hw03/hw03.pdf)
   discussion: |
-    - [Lecturre worksheet](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion11/lecture11_worksheet.ipynb)
+    - [Lecture worksheet](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion11/lecture11_worksheet.ipynb)
 
 - date: Thursday 2/25/21
-  topic: Bootstrap
+  topic: Uncertainty quantification for GLMs
+  slides: |
+    - [Slides](assets/slides/sp21_lecture12_slides.pdf)
+    - [Demo notebook](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lecture/lecture12/bootstrap.ipynb)
+  video: https://www.youtube.com/watch?v=7WNTEekuy0I&list=PLSEfoRJ1f3UPHX_LGvNwaXRtTxMYDt3Ag&index=1
 
 - date: Tuesday 3/2/21
   topic: Midterm 1    
