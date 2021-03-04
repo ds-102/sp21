@@ -167,6 +167,7 @@
     - [HW 03 Solutions](https://bcourses.berkeley.edu/courses/1502660/files?preview=79894332)
   discussion: |
     - [Lecture worksheet](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion11/lecture11_worksheet.ipynb)
+    - [Solutions](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion11/lecture11_worksheet_solutions.ipynb)
 
 - date: Thursday 2/25/21
   topic: Uncertainty quantification for GLMs
@@ -184,6 +185,7 @@
   topic: Causal Inference I
   slides : |
     - [Slides](assets/slides/sp21_lecture13_slides.pdf)
+    - [Whiteboard notes](assets/slides/lecture13_whiteboard_notes.pdf)
   video: https://www.youtube.com/watch?v=gVP_VYp23l8&list=PLSEfoRJ1f3UPCh6pa2OO9K5osp5iKBHNa&index=1
   discussion: |
     - [Lecture worksheet](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion13/lecture13_worksheet.ipynb)
