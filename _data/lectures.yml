@@ -189,9 +189,17 @@
   video: https://www.youtube.com/watch?v=gVP_VYp23l8&list=PLSEfoRJ1f3UPCh6pa2OO9K5osp5iKBHNa&index=1
   discussion: |
     - [Lecture worksheet](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion13/lecture13_worksheet.ipynb)
+    - [Solutions](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion13/lecture13_worksheet_solutions.ipynb)
 
 - date: Tuesday 3/9/21
   topic: Causal Inference II
+  slides: |
+    - [Slides](assets/slides/sp21_lecture14_slides.pdf)
+    - [Whiteboard notes](assets/slides/lecture14_whiteboard_notes.pdf)
+  video: https://www.youtube.com/watch?v=AoDU2F39Qp4&list=PLSEfoRJ1f3UMEnFY7e4B1stqbuTC-WdOW
+  discussion: |
+    - [Lecture worksheet](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion14/lecture14_worksheet.ipynb)
+
 
 - date: Thursday 3/11/21
   topic: Causal Inference III
