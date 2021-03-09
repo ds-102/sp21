@@ -180,6 +180,8 @@
   topic: Midterm 1    
   lab: |
     - [Lab 05](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab05/lab05.ipynb)
+  homework: |
+    - [HW 04](https://github.com/ds-102/sp21/blob/master/homework/hw04.zip?raw=true)
 
 - date: Thursday 3/4/21
   topic: Causal Inference I
