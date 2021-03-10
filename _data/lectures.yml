@@ -201,11 +201,18 @@
   video: https://www.youtube.com/watch?v=AoDU2F39Qp4&list=PLSEfoRJ1f3UMEnFY7e4B1stqbuTC-WdOW
   discussion: |
     - [Lecture worksheet](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion14/lecture14_worksheet.ipynb)
+    - [Solutions](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion14/lecture14_worksheet_solutions.ipynb)
   lab: |
     - [Lab 06](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab06/lab06.ipynb)
 
 - date: Thursday 3/11/21
   topic: Causal Inference III
+  slides: |
+    - [Slides](assets/slides/sp21_lecture15_slides.pdf)
+    - [Whiteboard notes](assets/slides/lecture15_whiteboard_notes.pdf)
+  video: https://www.youtube.com/watch?v=M2B2O9mHzfQ&list=PLSEfoRJ1f3UOSUikVBeoJM2OdPvgPvpQ0&index=1
+  discussion: |
+    - [Lecture worksheet](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion15/lecture15_worksheet.ipynb)
 
 - date: Tuesday 3/16/21
   topic: Concentration Inequalities
