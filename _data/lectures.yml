@@ -184,7 +184,7 @@
     - [HW 04](https://github.com/ds-102/sp21/blob/master/homework/hw04.zip?raw=true)
 
 - date: Thursday 3/4/21
-  topic: Causal Inference I: Problems with association
+  topic: Causal Inference I, Problems with association
   slides : |
     - [Slides](assets/slides/sp21_lecture13_slides.pdf)
     - [Whiteboard notes](assets/slides/lecture13_whiteboard_notes.pdf)
@@ -194,7 +194,7 @@
     - [Solutions](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion13/lecture13_worksheet_solutions.ipynb)
 
 - date: Tuesday 3/9/21
-  topic: Causal Inference II: Randomized experiments
+  topic: Causal Inference II, Randomized experiments
   slides: |
     - [Slides](assets/slides/sp21_lecture14_slides.pdf)
     - [Whiteboard notes](assets/slides/lecture14_whiteboard_notes.pdf)
@@ -206,7 +206,7 @@
     - [Lab 06](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab06/lab06.ipynb)
 
 - date: Thursday 3/11/21
-  topic: Causal Inference III: Observational studies
+  topic: Causal Inference III, Observational studies
   slides: |
     - [Slides](assets/slides/sp21_lecture15_slides.pdf)
     - [Whiteboard notes](assets/slides/lecture15_whiteboard_notes.pdf)
@@ -216,7 +216,8 @@
     - [Solutions](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion15/lecture15_worksheet_solutions.ipynb)
 
 - date: Tuesday 3/16/21
-  topic: Causal Infereence IV: Instrumental variables
+  topic: Causal Infereence IV, Instrumental variables
+  video: https://www.youtube.com/watch?v=6qEM5cbPUEc&list=PLSEfoRJ1f3UMCaIpDlgXTxDURAX8BIm2E
   slides: |
     - [Lecture notes](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lecture/lecture16/instrumental_variable_notes.ipynb)
   discussion: |
