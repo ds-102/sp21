@@ -180,6 +180,7 @@
   topic: Midterm 1    
   lab: |
     - [Lab 05](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab05/lab05.ipynb)
+    - [Lab 05 Solutions](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab05/lab05_solutions.ipynb)
   homework: |
     - [HW 04](https://github.com/ds-102/sp21/blob/master/homework/hw04.zip?raw=true)
 
@@ -222,6 +223,8 @@
     - [Lecture notes](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lecture/lecture16/instrumental_variable_notes.ipynb)
   discussion: |
     - [Lecture worksheet](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion16/lecture16_worksheet.ipynb)
+  lab: |
+    - [Lab 07](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab07/lab07.ipynb)
 
 - date: Thursday 3/18/21
   topic: Concentration inequalities
