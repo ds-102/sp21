@@ -223,11 +223,17 @@
     - [Lecture notes](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lecture/lecture16/instrumental_variable_notes.ipynb)
   discussion: |
     - [Lecture worksheet](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion16/lecture16_worksheet.ipynb)
+    - [Solutions](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion16/lecture16_worksheet_solutions.ipynb)
   lab: |
     - [Lab 07](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab07/lab07.ipynb)
 
 - date: Thursday 3/18/21
   topic: Concentration inequalities
+  video: https://www.youtube.com/watch?v=HX8egjGyDEA&list=PLSEfoRJ1f3UNII7JXG049Y7pYPIm0L1qn
+  slides: |
+    - [Lecture notes](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lecture/lecture17/concentration.ipynb)
+  discussion: |
+    - [Lecture worksheet](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion17/lecture17_worksheet.ipynb)
 
 - date: Tuesday 3/30/21
   topic: Bandits I
