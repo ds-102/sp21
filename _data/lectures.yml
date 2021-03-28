@@ -244,7 +244,7 @@
   topic: Bandits I
   video: https://www.youtube.com/watch?v=r_2eP6nHLQA&list=PLSEfoRJ1f3UOyMzQHW-YziiwF6wd2joFX
   slides: |
-    - [Lecture notes](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lecture/lecture18/bandit_notes.ipynb)
+    - [Lecture notes](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lecture/lecture18/bandits_notes.ipynb)
     - [Demo](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lecture/lecture18/MAB_demo.ipynb)
   discussion: |
     - [Lecture worksheet](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion18/lecture18_worksheet.ipynb)
