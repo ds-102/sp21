@@ -242,6 +242,13 @@
 
 - date: Tuesday 3/30/21
   topic: Bandits I
+  video: https://www.youtube.com/watch?v=r_2eP6nHLQA&list=PLSEfoRJ1f3UOyMzQHW-YziiwF6wd2joFX
+  slides: |
+    - [Lecture notes](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lecture/lecture18/bandit_notes.ipynb)
+    - [Demo](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lecture/lecture18/MAB_demo.ipynb)
+  discussion: |
+    - [Lecture worksheet](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion18/lecture18_worksheet.ipynb)
+
 
 - date: Thursday 4/1/21
   topic: Bandits II
