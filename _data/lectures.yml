@@ -228,6 +228,7 @@
     - [Solutions](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion16/lecture16_worksheet_solutions.ipynb)
   lab: |
     - [Lab 07](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab07/lab07.ipynb)
+    - [Lab 07 Solutions](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab07/lab07_solutions.ipynb)
   homework: |
     - [HW 05](https://github.com/ds-102/sp21/blob/master/homework/hw05/hw05.zip?raw=true)
 
@@ -248,7 +249,8 @@
     - [Demo](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lecture/lecture18/MAB_demo.ipynb)
   discussion: |
     - [Lecture worksheet](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion18/lecture18_worksheet.ipynb)
-
+  lab: |
+    - [Lab 08](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab08/lab08.ipynb)
 
 - date: Thursday 4/1/21
   topic: Bandits II
