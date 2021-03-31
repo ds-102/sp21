@@ -254,6 +254,12 @@
 
 - date: Thursday 4/1/21
   topic: Bandits II
+  video: https://www.youtube.com/watch?v=UjavzmQqFE0&list=PLSEfoRJ1f3UMYszOgsbOxCblmSMHHAdQD&index=1
+  slides: |
+    - [Lecture notes](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lecture/lecture18/bandits_notes.ipynb)
+    - [Demo](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lecture/lecture18/MAB_demo.ipynb)
+  discussion: |
+    - [Lecture worksheet](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion19/lecture19_worksheet.ipynb)
 
 - date: Tuesday 4/6/21
   topic: Nonparametric Methods
