@@ -264,10 +264,17 @@
     - [Solutions](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion19/lecture19_worksheet_solutions.ipynb)
 
 - date: Tuesday 4/6/21
-  topic: Nonparametric Methods
+  topic: Nonparametric Methods and Neural Networks
+  video: https://www.youtube.com/watch?v=GFJsJMYPBgc&list=PLSEfoRJ1f3UOZysVW125SGwgNWKdFPf0V
+  slides: |
+    - (Required reading) [Statistical Modeling, The Two Cultures, by Leo Breiman](http://cda.psych.uiuc.edu/statistical_learning_course/breiman_two_cultures.pdf)
+    - [Notes on nonparametric methods](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lecture/lecture20/01_nonparametric.ipynb)
+    - [Notes on neural networks and backpropagation](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lecture/lecture20/02_NNs_Autodiff_backprop.ipynb)
+  discussion: |
+    - [Lecture worksheet](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion20/lecture20_worksheet.ipynb)
 
 - date: Thursday 4/8/21
-  topic: Interpretability
+  topic: Neural Networks and Interpretability
 
 - date: Tuesday 4/13/21
   topic: Generalization, Robustness, Distribution Shift I
