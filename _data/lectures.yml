@@ -252,6 +252,7 @@
     - [Solutions](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion18/lecture18_worksheet_solutions.ipynb)
   lab: |
     - [Lab 08](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab08/lab08.ipynb)
+    - [Lab 08 Solutions](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab08/lab08_solutions.ipynb)
 
 - date: Thursday 4/1/21
   topic: Bandits II
@@ -272,6 +273,8 @@
     - [Notes on neural networks and backpropagation](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lecture/lecture20/02_NNs_Autodiff_backprop.ipynb)
   discussion: |
     - [Lecture worksheet](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion20/lecture20_worksheet.ipynb)
+  lab: |
+    - [Lab 09](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab09/lab09.ipynb)
 
 - date: Thursday 4/8/21
   topic: Neural Networks and Interpretability
