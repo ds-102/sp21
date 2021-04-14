@@ -1,0 +1,50 @@
+10:10:06 From Jack Stehn (they) to Everyone : Good morning everyone!
+10:10:11 From Jack Stehn (they) to Everyone : How's the study grind going?
+10:10:35 From Ritvik Iyer to Everyone : Regrettably non-existent so far :(
+10:11:08 From Yan Shuo Tan (he/him) to Everyone : Almost there folks :)
+10:15:50 From Ritvik Iyer to Everyone : For posterior predictive checks, is the idea that you look at data (y) generated from your model and compare it to the data you originally fitted the model on?
+10:16:22 From Yan Shuo Tan (he/him) to Everyone : Yes, that’s the general idea
+10:16:45 From Ritvik Iyer to Everyone : Would it possible to do this in a frequentist setting as well?
+10:16:49 From Yan Shuo Tan (he/him) to Everyone : You generate new observations from the model and see if they are similar to the real data that you observed
+10:16:59 From Jack Stehn (they) to Everyone : So its like bootstrapping, which is a frequentist idea, yeah?
+10:16:59 From Claudea Jennefer to Everyone : is there a link to the slides?
+10:17:09 From Claudea Jennefer to Everyone : Thank you!
+10:17:10 From Yan Shuo Tan (he/him) to Everyone : https://docs.google.com/presentation/d/1LVLx86Q25Z9hx0eHawi5efPGZCY0ki3JFykf2Z-6Mho/
+10:17:49 From Yan Shuo Tan (he/him) to Everyone : It’s like bootstrapping, but bootstrapping is a little agnostic about the noise/residuals in the GLM
+10:19:45 From Jack Stehn (they) to Everyone : Typically we would see the credible interval for posterior checks, through doing like Gibbs or MCMC sampling, yeah?
+10:20:10 From Yan Shuo Tan (he/him) to Everyone : @Ritvik: Yes you can do something similar in a frequentist setting. This is known as “goodness of fit”. Usually its quantified in terms of the log likelihood, deviance or chi-squared
+10:20:35 From Yan Shuo Tan (he/him) to Everyone : Goodness-of-fit will not be tested in MT2
+10:20:40 From Ritvik Iyer to Everyone : Thanks!
+10:21:16 From Jessica Wu to Everyone : Just to clarify, this will be recorded and posted right after right?
+10:22:44 From Jack Stehn (they) to Everyone : The big assumption for bootstrapping is that the sample is reflective of the population we are studying, yeah?
+10:23:17 From Yan Shuo Tan (he/him) to Everyone : Yes, but more than that: we need to assume that the sample is drawn i.i.d.
+10:24:14 From Claudea Jennefer to Everyone : could someone explain the difference between credible interval vs confidence interval again?
+10:25:41 From Yan Shuo Tan (he/him) to Everyone : @Jack: For bootstrap in GLM, there’s also the issue of whether there is a true GLM model for the data. If there isn’t then bootstrap will give you a CI for the “best fit” parameter and not the “true model”, b/c there isn’t one
+10:25:56 From Erika Mack to Everyone : @Claudea confidence interval is frequentist: population parameter is fixed and your are 95% sure you have a good interval that contains that parameter. Credible interval is Bayesian and you are finding the chance the parameter falls in your interval
+10:26:17 From Claudea Jennefer to Everyone : thank you!
+10:32:43 From Jack Stehn (they) to Everyone : Oh, the ecological fallacy just hit me, haha. Rich people live in certain states. These certain states vote democrat. Therefore rich people vote democrat. This is clearly not a good conclusion.
+10:32:56 From Yan Shuo Tan (he/him) to Everyone : yeah
+10:42:18 From Claudea Jennefer to Everyone : could someone please re-explain the Y(0), Y(1) indep Z again from the previous slide?
+10:43:57 From Yan Shuo Tan (he/him) to Everyone : Y_i(0), Y_i(1) are potential outcomes of an individual. For a specific individual, we can think of these as being fixed. Once we select treatment Z_i for that person, what we observe is Y_{i,obs} = Z_i*Y_i(1) + (1-Z_i)Y_i(0)
+10:44:34 From Yan Shuo Tan (he/him) to Everyone : Hence, the observed outcome is related to the treatment Z, but the potential outcomes are not
+10:44:51 From Claudea Jennefer to Everyone : Thank you!
+10:46:44 From Ritvik Iyer to Everyone : Is Fisher’s exact tests and the 2x2 tables in scope?
+10:46:46 From Jack Stehn (they) to Everyone : So the tau_2sls is the estimator for tau that we would use for ATE in causal inference?
+10:47:03 From Yan Shuo Tan (he/him) to Everyone : Yes 2x2 tables are in scope
+10:47:27 From Yan Shuo Tan (he/him) to Everyone : The details of Fisher’s exact test is not, but you are still required to understand the Fisher strong null
+10:47:47 From Nabeel Hingun to Everyone : The midterm is non-cumulative right?
+10:48:11 From Yan Shuo Tan (he/him) to Everyone : @Jack: 2SLS is only in the special case where we have a linear structural model with an instrumental variable
+10:49:10 From Yan Shuo Tan (he/him) to Everyone : Yes, midterm is on lecture on GLM uncertainty onward. But may indirectly test on things like computing conjugate posterior for Thompson sampling
+10:50:06 From Elda Pere to Everyone : what settings would we Hoeffding's inequality in? 
+10:50:32 From Yan Shuo Tan (he/him) to Everyone : One setting is the UCB algorithm for bandits
+10:50:51 From Yan Shuo Tan (he/him) to Everyone : We are using Hoeffding to determine what the UCB for each arm is
+10:53:34 From Leigh Levinson to Everyone : Maybe check version history!
+10:53:36 From Nabeel Hingun to Everyone : Check the history of the slides
+10:56:24 From DK (they/them/their) to Everyone : how do you know the optimality gap?
+10:56:31 From DK (they/them/their) to Everyone : oh right
+11:00:18 From Ramesh Sridharan to Everyone : (For those wondering, I accidentally deleted the bandits slides right before class: they're back in there now!)
+11:09:39 From Jack Stehn (they) to Everyone : Thank you!
+11:09:46 From DK (they/them/their) to Everyone : good luck studying everyone!
+11:09:46 From Leigh Levinson to Everyone : Thank you!
+11:09:48 From Claudea Jennefer to Everyone : Thank you!
+11:09:54 From Rane Perrin Tzeng to Everyone : thanks haha
