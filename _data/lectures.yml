@@ -302,6 +302,9 @@
 
 - date: Tuesday 4/20/21
   topic: Reinforcement Learning
+  video: https://www.youtube.com/watch?v=G-YTxyYkjgc&list=PLSEfoRJ1f3UN9mRkj607sljwV19TINZbA
+  discussion: |
+    - [Lecture worksheet](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion23/lecture23_worksheet.ipynb)
 
 - date: Thursday 4/22/21
   topic: Game Theory and Matching Markets
