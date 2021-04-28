@@ -325,6 +325,8 @@
   video: https://www.youtube.com/watch?v=noqISKgjtlc&list=PLSEfoRJ1f3UONI8JYXNMl51G7l6_0LnHf
   discussion: |
     - [Lecture worksheet](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion25/lecture25_worksheet.ipynb)
+  lab: |
+    - [Lab 11](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab11/lab11.ipynb)
 
 - date: Thursday 4/29/21
   topic: Matching Markets and Game Theory / Course Wrap-up
