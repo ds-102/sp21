@@ -66,7 +66,6 @@
     - [Slides](https://docs.google.com/presentation/d/1mAYq3vlQfjeTzWTwb44j2DIMDc4gHpDVhP9G7lRTWBw/edit?usp=sharing)
   lab: |
     - [Lab 01](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab01/lab01.ipynb)
-    - [Lab 01 Solutions](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab01/lab01_solutions.ipynb)
   homework: |
     - [HW 01](https://github.com/ds-102/sp21/raw/master/homework/hw01/hw01.zip)
     - [HW 01 Solutions](https://bcourses.berkeley.edu/courses/1502660/files?preview=79740107)
@@ -96,7 +95,6 @@
   recording: https://piazza.com/class/kjv4lczgzgq1hc?cid=19
   lab: |
     - [Lab 02](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab02/lab02.ipynb)
-    - [Lab 02 Solutions](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab02/lab02_solutions.ipynb)
 
 
 - date: Thursday 2/4/21
@@ -118,7 +116,6 @@
   recording: https://piazza.com/class/kjv4lczgzgq1hc?cid=19
   lab: |
     - [Lab 03](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab03/lab03.ipynb)
-    - [Lab 03 Solutions](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab03/lab03_solutions.ipynb)
   homework: |
     - [HW 02](https://github.com/ds-102/sp21/raw/master/homework/hw02/hw02.zip)
     - [HW 02 Solutions](https://bcourses.berkeley.edu/courses/1502660/files/folder/hw02_sol)
@@ -141,7 +138,6 @@
   video: https://www.youtube.com/watch?v=R1HuaAiUK_s&list=PLSEfoRJ1f3UPbuV5DK2izCzg3MzoYChkS
   lab: |
     - [Lab 04](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab04/lab04.ipynb)
-    - [Lab 04 Solutions](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab04/lab04_solutions.ipynb)
 
 - date: Thursday 2/18/21
   topic: Regression and GLMs
@@ -182,7 +178,6 @@
   topic: Midterm 1    
   lab: |
     - [Lab 05](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab05/lab05.ipynb)
-    - [Lab 05 Solutions](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab05/lab05_solutions.ipynb)
   homework: |
     - [HW 04](https://github.com/ds-102/sp21/blob/master/homework/hw04.zip?raw=true)
     - [HW 04 Solutions](https://bcourses.berkeley.edu/courses/1502660/files?preview=80119733)
@@ -208,7 +203,6 @@
     - [Solutions](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion14/lecture14_worksheet_solutions.ipynb)
   lab: |
     - [Lab 06](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab06/lab06.ipynb)
-    - [Lab 06 Solutions](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab06/lab06_solutions.ipynb)    
 
 - date: Thursday 3/11/21
   topic: Causal Inference III, Observational studies
@@ -230,7 +224,6 @@
     - [Solutions](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion16/lecture16_worksheet_solutions.ipynb)
   lab: |
     - [Lab 07](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab07/lab07.ipynb)
-    - [Lab 07 Solutions](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab07/lab07_solutions.ipynb)
   homework: |
     - [HW 05](https://github.com/ds-102/sp21/blob/master/homework/hw05/hw05.zip?raw=true)
     - [HW 05 Solutions](https://bcourses.berkeley.edu/courses/1502660/files?preview=80223148)
@@ -255,7 +248,6 @@
     - [Solutions](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion18/lecture18_worksheet_solutions.ipynb)
   lab: |
     - [Lab 08](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab08/lab08.ipynb)
-    - [Lab 08 Solutions](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab08/lab08_solutions.ipynb)
 
 - date: Thursday 4/1/21
   topic: Bandits II
@@ -278,7 +270,6 @@
     - [Lecture worksheet](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion20/lecture20_worksheet.ipynb)
   lab: |
     - [Lab 09](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab09/lab09.ipynb)
-    - [Lab 09 Solutions](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab09/lab09_solutions.ipynb)
   homework: |
     - [HW 06](https://github.com/ds-102/sp21/raw/master/homework/hw06/hw06.zip)
     - [HW 06 Solutions](https://bcourses.berkeley.edu/courses/1502660/files/folder/hw06_sol)
@@ -311,7 +302,6 @@
     - [Solutions](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion23/lecture23_worksheet_solutions.ipynb)
   lab: |
     - [Lab 10](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab10/lab10.ipynb)
-    - [Lab 10 Solutions](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab10/lab10_solutions.ipynb)
 
 - date: Thursday 4/22/21
   topic: Robustness and generalization
@@ -329,7 +319,6 @@
     - [Lecture worksheet](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=discussion/discussion25/lecture25_worksheet.ipynb)
   lab: |
     - [Lab 11](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab11/lab11.ipynb)
-    - [Lab 11 Solutions](http://data102.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/ds-102/sp21&subPath=lab/lab11/lab11_solutions.ipynb)
 
 - date: Thursday 4/29/21
   topic: Matching Markets and Game Theory / Course Wrap-up
