@@ -3,6 +3,9 @@ layout: page
 title: "About this Course"
 ---
 
+{: .warning }
+⚠️ This content is archived as of March 2026 and is retained exclusively for reference. [Find current offerings.](https://data102.org/)
+
 <!-- # DS102: Data, Inference, and Decisions -->
 ## Data, Inference, and Decisions
 

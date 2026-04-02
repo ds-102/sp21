@@ -22,3 +22,10 @@ baseurl: '/sp21'
 
 sass:
   style: compressed
+
+callouts:
+  highlight:
+    color: yellow
+  warning:
+    title: Warning
+    color: red

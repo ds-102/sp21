@@ -3,6 +3,9 @@ layout: page
 title: "Grading Policies"
 ---
 
+{: .warning }
+⚠️ This content is archived as of March 2026 and is retained exclusively for reference. [Find current offerings.](https://data102.org/)
+
 Our goal in teaching this class is to help you learn the material. Our grading policies are based on this goal: we’ll provide you with feedback on your learning in homework and lab, and the rest of our policies are meant to further this goal as well.
 
 ## Assignments

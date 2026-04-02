@@ -3,6 +3,9 @@ layout: page
 title: "Resources"
 ---
 
+{: .warning }
+⚠️ This content is archived as of March 2026 and is retained exclusively for reference. [Find current offerings.](https://data102.org/)
+
 We will be posting all lecture materials on the course syllabus.
 
 Here is a collection of resources that may help you learn more about various concepts and skills covered in the class.  Learning by reading is a key part of being a well-rounded data scientist.  We will not assign mandatory reading but instead encourage you to look at these materials.
